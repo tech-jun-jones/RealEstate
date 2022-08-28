@@ -1,0 +1,830 @@
+header{
+    .container{
+        min-height: 10vh;
+        
+        nav{
+
+           
+            .container-mob{
+                display:grid;
+                grid-template-columns: repeat(2, 1fr);
+                align-items: center;
+                min-height: 10vh;
+                padding: 2rem 0;
+
+
+                .company-name{
+                    .logo{
+                        h1{
+                            font-size: var(--fs-700);
+                            font-weight: 700;
+
+                            a{
+                                color: var(--secondaryColor);
+                            }
+
+                        }
+                    }
+                }
+
+                .menu-darkmode-lang{
+                    padding: auto;
+                    display: grid;
+                    align-items: center;
+                    grid-template-columns: repeat(2, 1fr);
+                    column-gap: 1rem;
+
+
+                    .lang-wrapper{
+                        justify-self: end;
+                        cursor: pointer;
+                        #lang{
+                           
+
+                            border: none;
+                                background: transparent;
+                                font-size: var(--fs-400);
+                                font-weight: 500;
+                            
+                        }
+                    }
+
+                    .darkmode{
+                        // transform: translateX(2rem);
+                        justify-self: end;
+                        .btn-darkmode{
+                            background: transparent;
+                            color: var(--secondaryColor);
+                            font-size: var(--fs-600);
+                            font-weight: 600;
+                            width:fit-content;
+
+
+                            #sun{
+                                display: none;
+                            }
+                        }
+                    }
+
+                    .menu-wrapper{
+                        justify-self: end;
+    
+                        .btn-menu{
+                            background: transparent;
+                            color:var(--secondaryColor);
+                            font-size: var(--fs-600);
+                            font-weight: 700;
+                        
+                        }
+                    }
+                }
+                
+
+
+
+
+
+                .navlist{
+                    display:none;
+                }
+                .contact-lang{
+                    display: none;
+                }
+
+                // .sidebar-wrapper{
+                //     .sidebar{
+                //         width: 100%;
+                //         min-height: 100vh;
+                //         background: var(--sidebarBgColor);
+                //     }
+                // }
+            }
+        }
+                 .fixed-nav {
+                     position: fixed;
+                     top: 0;
+                     left: 0;
+                     right: 0;
+                     background: var(--primaryColor);
+                     box-shadow: 0 0.5rem 1rem var(--lightgreyColor);
+                     z-index:100;
+                 }
+    }
+}
+
+
+
+@media screen and (min-width:375px){
+
+header {
+        .container {
+            min-height: 10vh;
+
+            nav {
+                .container-mob {
+                    display: grid;
+                    grid-template-columns: repeat(2, 1fr);
+                    align-items: center;
+                    min-height: 10vh;
+
+
+                    .company-name {
+                        .logo {
+                            h1 {
+                                font-size: var(--fs-700);
+                                font-weight: 700;
+
+                                a {
+                                    color: var(--secondaryColor);
+                                }
+
+                            }
+                        }
+                    }
+
+                    .menu-darkmode-lang {
+                        padding: auto;
+                        display: grid;
+                        align-items: center;
+                        grid-template-columns: repeat(2, 1fr);
+                        column-gap: 1rem;
+
+
+                        .lang-wrapper {
+                            justify-self: end;
+                            
+                            #lang {
+                                // transform: translate(4.3rem);
+
+                                border: none;
+                                background: transparent;
+                                font-size: var(--fs-500);
+                                font-weight: 500;
+
+                            }
+                        }
+
+                        .darkmode {
+
+                            justify-self: end;
+                            // transform: translateX(2rem);
+                            .btn-darkmode {
+                                background: transparent;
+                                color: var(--secondaryColor);
+                                font-size: var(--fs-700);
+                                font-weight: 600;
+                                width: fit-content;
+
+
+                                #sun {
+                                    display: none;
+                                }
+                            }
+                        }
+
+                        .menu-wrapper {
+                            justify-self: end;
+
+                            .btn-menu {
+                                background: transparent;
+                                color: var(--secondaryColor);
+                                font-size: var(--fs-700);
+                                font-weight: 700;
+
+                            }
+                        }
+                    }
+
+
+
+
+
+
+                    .navlist {
+                        display: none;
+                    }
+
+                    .contact-lang {
+                        display: none;
+                    }
+
+                    // .sidebar-wrapper{
+                    //     .sidebar{
+                    //         width: 100%;
+                    //         min-height: 100vh;
+                    //         background: var(--sidebarBgColor);
+                    //     }
+                    // }
+                }
+            }
+        }
+    }
+}
+
+
+
+@media screen and (min-width:425px){
+
+header {
+        .container {
+            min-height: 10vh;
+
+            nav {
+                .container-mob {
+                    display: grid;
+                    grid-template-columns: repeat(2, 1fr);
+                    align-items: center;
+                    min-height: 10vh;
+
+
+                    .company-name {
+                        .logo {
+                            h1 {
+                                font-size: var(--fs-800);
+                                font-weight: 700;
+
+                                a {
+                                    color: var(--secondaryColor);
+                                }
+
+                            }
+                        }
+                    }
+
+                    .menu-darkmode-lang {
+                        padding: auto;
+                        display: grid;
+                        align-items: center;
+                        grid-template-columns: repeat(2, 1fr);
+                        column-gap: 1.5rem;
+
+
+                        .lang-wrapper {
+                            justify-self: end;
+                           
+                            #lang {
+
+                            border: none;
+                                background: transparent;
+                                font-size: var(--fs-500);
+                                font-weight: 500;
+
+                            }
+                        }
+
+                        .darkmode {
+
+                            justify-self: end;
+                            
+                            .btn-darkmode {
+                                background: transparent;
+                                color: var(--secondaryColor);
+                                font-size: var(--fs-700);
+                                font-weight: 600;
+                                width:fit-content;
+
+
+                                #sun {
+                                    display: none;
+                                }
+                            }
+                        }
+
+                        .menu-wrapper {
+                            justify-self: end;
+
+                            .btn-menu {
+                                background: transparent;
+                                color: var(--secondaryColor);
+                                font-size: var(--fs-700);
+                                font-weight: 700;
+
+                               
+                            }
+                        }
+                    }
+
+
+
+
+
+
+                    .navlist {
+                        display: none;
+                    }
+
+                    .contact-lang {
+                        display: none;
+                    }
+
+                    // .sidebar-wrapper{
+                    //     .sidebar{
+                    //         width: 100%;
+                    //         min-height: 100vh;
+                    //         background: var(--sidebarBgColor);
+                    //     }
+                    // }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width:768px){
+
+header {
+        .container {
+            min-height: 10vh;
+
+            nav {
+                .container-mob {
+                    width: 90%;
+                    margin: 0 auto;
+                    display: grid;
+                    grid-template-columns: 17% 58% 25%;
+                    align-items: center;
+                    min-height: 10vh;
+
+
+                    .company-name {
+                        .logo {
+                            h1 {
+                                font-size: var(--fs-900);
+                                font-weight: 700;
+
+                                a {
+                                    color: var(--secondaryColor);
+                                }
+
+                            }
+                        }
+                    }
+
+                    .menu-darkmode-lang {
+                       
+                        display: none;
+
+
+                    }
+
+                    .navlist{
+
+                        display: block;
+                        .navlinks{
+                           display:flex;
+                           gap: 1.8rem;
+                           align-items: center;
+                           justify-content: center;
+                           place-items: center;
+                        
+                           
+                           font-size: var(--fs-500);
+
+                           a{
+                            color: var(--secondaryColor);
+                            font-weight: 500;
+                           }
+                        }
+
+                    }
+
+                    .contact-lang {
+                        display: flex;
+                        align-items: center;
+                        justify-content:center;
+                        gap:1rem;
+                        justify-self: end;
+
+                        .lang{
+                            cursor: pointer;
+                            #lang{
+
+                                background: transparent;
+                                border:none;
+                            }
+                        }
+                        .contact{
+                            .btn-contact{
+                                padding: 0.8rem 1.5rem;
+                                font-size: var(--fs-300);
+                            }
+                        }
+
+                        .darkmode{
+
+                            .btn-darkmode{
+                                font-size: var(--fs-700);
+                                background: transparent;
+                                color: var(--secondaryColor);
+
+                                #sun {
+                                        display: none;
+                                    }
+                            }
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width:820px){
+
+header {
+        .container {
+            min-height: 10vh;
+
+            nav {
+                .container-mob {
+                    width: 87%;
+                        margin: 0 auto;
+                    display: grid;
+                    grid-template-columns: 17% 58% 25%;
+                    align-items: center;
+                    min-height: 10vh;
+
+
+                    .company-name {
+                        .logo {
+                            h1 {
+                                font-size: var(--fs-900);
+                                font-weight: 700;
+
+                                a {
+                                    color: var(--secondaryColor);
+                                }
+
+                            }
+                        }
+                    }
+
+                    .menu-darkmode-lang {
+                        display:none;
+                    }
+                                        .navlist {
+                    
+                                            display: block;
+                    
+                                            .navlinks {
+                                                display: flex;
+                                                gap: 1.8rem;
+                                                align-items: center;
+                                                justify-content: center;
+                                                font-size: var(--fs-600);
+                    
+                                                a {
+                                                    color: var(--secondaryColor);
+                                                    font-weight: 500;
+                                                }
+                                            }
+                    
+                                        }
+                    
+                                        .contact-lang {
+                                            display: flex;
+                                            align-items: center;
+                                            justify-content: center;
+                                            gap: 1rem;
+                                            justify-self: end;
+                    
+                                            .lang {
+                                                cursor: pointer;
+                                                #lang {
+                    
+                                                    background: transparent;
+                                                    border: none;
+                                                }
+                                            }
+                    
+                                            .contact {
+                                                .btn-contact {
+                                                    padding: 0.8rem 2rem;
+                                                    font-size: var(--fs-300);
+                                                }
+                                            }
+                    
+                                            .darkmode {
+                    
+                                                .btn-darkmode {
+                                                    font-size: var(--fs-800);
+                                                    background: transparent;
+                                                    color: var(--secondaryColor);
+                    
+                                                    #sun {
+                                                        display: none;
+                                                    }
+                                                }
+                                            }
+                                        }
+
+
+
+
+
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width:912px){
+
+header {
+        .container {
+            min-height: 10vh;
+
+            nav {
+                .container-mob {
+                    width: 87%;
+                        margin: 0 auto;
+                    display: grid;
+                    grid-template-columns: 17% 58% 25%;
+                    align-items: center;
+                    min-height: 10vh;
+
+
+                    .company-name {
+                        .logo {
+                            h1 {
+                                font-size: var(--fs-900);
+                                font-weight: 700;
+
+                                a {
+                                    color: var(--secondaryColor);
+                                }
+
+                            }
+                        }
+                    }
+
+                    .menu-darkmode-lang {
+                        display: none;
+                        
+                    }
+                                        .navlist {
+                    
+                                            display: block;
+                    
+                                            .navlinks {
+                                                display: flex;
+                                                gap: 2rem;
+                                                align-items: center;
+                                                justify-content: center;
+                                                font-size: var(--fs-600);
+                    
+                                                a {
+                                                    color: var(--secondaryColor);
+                                                    font-weight: 500;
+                                                }
+                                            }
+                    
+                                        }
+                    
+                                        .contact-lang {
+                                            display: flex;
+                                            align-items: center;
+                                            justify-content: center;
+                                            gap: 2rem;
+                                            justify-self: end;
+                    
+                                            .lang {
+                                                cursor: pointer;
+                                                #lang {
+                    
+                                                    background: transparent;
+                                                    border: none;
+                                                }
+                                            }
+                    
+                                            .contact {
+                                                .btn-contact {
+                                                    padding: 0.8rem 2rem;
+                                                    font-size: var(--fs-300);
+                                                }
+                                            }
+                    
+                                            .darkmode {
+                    
+                                                .btn-darkmode {
+                                                    font-size: var(--fs-800);
+                                                    background: transparent;
+                                                    color: var(--secondaryColor);
+                    
+                                                    #sun {
+                                                        display: none;
+                                                    }
+                                                }
+                                            }
+                                        }
+
+
+
+
+
+                   
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width:1024px){
+
+header {
+        .container {
+            min-height: 10vh;
+
+            nav {
+                .container-mob {
+                    width: 85%;
+                    margin: 0 auto;
+                    display: grid;
+                    grid-template-columns: 18% 57% 25%;
+                    align-items: center;
+                    min-height: 10vh;
+
+
+                    .company-name {
+                        .logo {
+                            h1 {
+                                font-size: var(--fs-1100);
+                                font-weight: 700;
+
+                                a {
+                                    color: var(--secondaryColor);
+                                }
+
+                            }
+                        }
+                    }
+
+                    .menu-darkmode-lang {
+                        display: none;
+                      
+                    }
+                                        .navlist {
+                    
+                                            display: block;
+                    
+                                            .navlinks {
+                                                display: flex;
+                                                gap: 4rem;
+                                                align-items: center;
+                                                text-align: center;
+                                                justify-content: center;
+                                                font-size: var(--fs-600);
+                    
+                                                a {
+                                                    color: var(--secondaryColor);
+                                                    font-weight: 500;
+                                                }
+                                            }
+                    
+                                        }
+                    
+                                        .contact-lang {
+                                            display: flex;
+                                            align-items: center;
+                                            justify-content:center;
+                                            gap: 2rem;
+                                            justify-self: end;
+                    
+                                            .lang {
+                                                cursor: pointer;
+                                                #lang {
+                    
+                                                    background: transparent;
+                                                    border: none;
+                                                }
+                                            }
+                    
+                                            .contact {
+                                                .btn-contact {
+                                                    padding: 0.8rem 2.5rem;
+                                                    font-size: var(--fs-400);
+                                                }
+                                            }
+                    
+                                            .darkmode {
+                    
+                                                .btn-darkmode {
+                                                    font-size: var(--fs-1000);
+                                                    background: transparent;
+                                                    color: var(--secondaryColor);
+                    
+                                                    #sun {
+                                                        display: none;
+                                                    }
+                                                }
+                                            }
+                                        }
+
+
+
+
+
+                   
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width:1280px){
+
+header {
+        .container {
+            min-height: 10vh;
+
+            nav {
+                .container-mob {
+                    width: 85%;
+                    margin: 0 auto;
+                    display: grid;
+                    grid-template-columns: 18% 55% 25%;
+                    align-items: center;
+                    min-height: 10vh;
+
+
+                    .company-name {
+                        .logo {
+                            h1 {
+                                font-size: var(--fs-1200);
+                                font-weight: 700;
+
+                                a {
+                                    color: var(--secondaryColor);
+                                }
+
+                            }
+                        }
+                    }
+
+                                        .menu-darkmode-lang {
+                                            display: none;
+                    
+                                        }
+                    
+                                        .navlist {
+                    
+                                            display: block;
+                    
+                                            .navlinks {
+                                                display: flex;
+                                                gap: 4rem;
+                                                align-items: center;
+                                                text-align: center;
+                                                justify-content: center;
+                                                font-size: var(--fs-600);
+                    
+                                                a {
+                                                    color: var(--secondaryColor);
+                                                    font-weight: 500;
+                                                }
+                                            }
+                    
+                                        }
+                    
+                                        .contact-lang {
+                                            display: flex;
+                                            align-items: center;
+                                            justify-content: center;
+                                            gap: 3rem;
+                                            justify-self: end;
+                    
+                                            .lang {
+                                                cursor: pointer;
+                                                
+                                                #lang {
+                    
+                                                    background: transparent;
+                                                    border: none;
+                                                }
+                                            }
+                    
+                                            .contact {
+                                              
+                                                .btn-contact {
+                                                    padding: 0.8rem 3rem;
+                                                    font-size: var(--fs-400);
+                                                }
+                                            }
+                    
+                                            .darkmode {
+                    
+                                                .btn-darkmode {
+                                                    font-size: var(--fs-1000);
+                                                    background: transparent;
+                                                    color: var(--secondaryColor);
+                    
+                                                    #sun {
+                                                        display: none;
+                                                    }
+                                                }
+                                            }
+                                        }
+
+                    
+                }
+            }
+        }
+    }
+}

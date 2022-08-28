@@ -1,0 +1,612 @@
+.newsletter-container{
+    overflow-x:hidden;
+    margin-top:7rem;
+    width: 100%;
+    min-height: 50vh;
+    .newsletter-wrapper{
+        .newsletter-content{
+            display: grid;
+            align-items: center;
+            justify-content: center;
+            place-items: center;
+            gap:2rem;
+            background: var(--primaryColor);
+            box-shadow: 0 0.5rem 1rem var(--lightgreyColor);
+            padding: 1.5rem;
+            height: 42vh;
+         
+
+            .newsletter-image{
+                width:26rem;
+                height: 10rem;
+                background-image: url('../Assets/Images/Commercial/a.jpg');
+                border-radius:0.7rem;
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+
+            }
+
+            .newsletter-text{
+                
+                font-size:var(--fs-400);
+
+                #form{
+                    margin-top: 1rem;
+                   
+                    input{
+                        width: 26rem;
+                        height: 4rem;
+                        border:none;
+                        background:var(--lightgreyColor);
+                        border-radius: 0.5rem;
+                       
+
+                    }
+                }
+                .sub-btn{
+                    
+                    transform: translate(15.3rem, -3.45rem);
+                    border-radius: 0.5rem;
+                    padding:0.7rem 2rem;
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and(min-width:375px) {
+    .newsletter-container {
+            overflow-x: hidden;
+            margin-top: 7rem;
+            width: 100%;
+            min-height: 50vh;
+    
+            .newsletter-wrapper {
+                .newsletter-content {
+                    display: grid;
+                    align-items: center;
+                    justify-content: center;
+                    place-items: center;
+                    gap: 2rem;
+                    background: var(--primaryColor);
+                    box-shadow: 0 0.5rem 1rem var(--lightgreyColor);
+                    padding: 1.5rem;
+                    height: 42vh;
+    
+    
+                    .newsletter-image {
+                        width: 30.7rem;
+                        height: 10rem;
+                        background-image: url('../Assets/Images/Commercial/a.jpg');
+                        border-radius: 0.7rem;
+                        background-position: center;
+                        background-size: cover;
+                        background-repeat: no-repeat;
+    
+                    }
+    
+                    .newsletter-text {
+    
+                        font-size: var(--fs-400);
+    
+                        #form {
+                            margin-top: 1rem;
+    
+                            input {
+                                width: 30.7rem;
+                                height: 4rem;
+                                border: none;
+                                background: var(--lightgreyColor);
+                                border-radius: 0.5rem;
+    
+    
+                            }
+                        }
+    
+                        .sub-btn {
+    
+                            transform: translate(20rem, -3.45rem);
+                            border-radius: 0.5rem;
+                            padding: 0.7rem 2rem;
+                        }
+                    }
+                }
+            }
+        }
+}
+@media screen and(min-width:425px) {
+    .newsletter-container {
+            overflow-x: hidden;
+            margin-top: 7rem;
+            width: 100%;
+            min-height: 50vh;
+    
+            .newsletter-wrapper {
+                .newsletter-content {
+                    display: grid;
+                    align-items: center;
+                    justify-content: center;
+                    place-items: center;
+                    gap: 2rem;
+                    background: var(--primaryColor);
+                    box-shadow: 0 0.5rem 1rem var(--lightgreyColor);
+                    padding: 1.5rem;
+                    height: 42vh;
+    
+    
+                    .newsletter-image {
+                        width: 35rem;
+                        height: 10rem;
+                        background-image: url('../Assets/Images/Commercial/a.jpg');
+                        border-radius: 0.7rem;
+                        background-position: center;
+                        background-size: cover;
+                        background-repeat: no-repeat;
+    
+                    }
+    
+                    .newsletter-text {
+    
+                        font-size: var(--fs-400);
+    
+                        #form {
+                            margin-top: 1rem;
+    
+                            input {
+                                width: 35rem;
+                                height: 4rem;
+                                border: none;
+                                background: var(--lightgreyColor);
+                                border-radius: 0.5rem;
+    
+    
+                            }
+                        }
+    
+                        .sub-btn {
+    
+                            transform: translate(24rem, -3.45rem);
+                            border-radius: 0.5rem;
+                            padding: 0.7rem 2rem;
+                        }
+                    }
+                }
+            }
+        }
+}
+@media screen and(min-width:460px) {
+    .newsletter-container {
+            overflow-x: hidden;
+            margin-top: 7rem;
+            width: 100%;
+            min-height: 50vh;
+    
+            .newsletter-wrapper {
+                .newsletter-content {
+                    display: grid;
+                    align-items: center;
+                    justify-content: center;
+                    place-items: center;
+                    gap: 2rem;
+                    background: var(--primaryColor);
+                    box-shadow: 0 0.5rem 1rem var(--lightgreyColor);
+                    padding: 1.5rem;
+                    height: 42vh;
+    
+    
+                    .newsletter-image {
+                        width: 39rem;
+                        height: 10rem;
+                        background-image: url('../Assets/Images/Commercial/a.jpg');
+                        border-radius: 0.7rem;
+                        background-position: center;
+                        background-size: cover;
+                        background-repeat: no-repeat;
+    
+                    }
+    
+                    .newsletter-text {
+    
+                        font-size: var(--fs-400);
+    
+                        #form {
+                            margin-top: 1rem;
+    
+                            input {
+                                width: 39rem;
+                                height: 4rem;
+                                border: none;
+                                background: var(--lightgreyColor);
+                                border-radius: 0.5rem;
+    
+    
+                            }
+                        }
+    
+                        .sub-btn {
+    
+                            transform: translate(28rem, -3.45rem);
+                            border-radius: 0.5rem;
+                            padding: 0.7rem 2rem;
+                        }
+                    }
+                }
+            }
+        }
+}
+@media screen and(min-width:768px) {
+    .newsletter-container {
+            overflow-x: hidden;
+            margin-top: 7rem;
+            width: 100%;
+            min-height: 50vh;
+    
+            .newsletter-wrapper {
+                width: 87%;
+                    margin: 0 auto;
+                .newsletter-content {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    place-items: center;
+                    gap: 2rem;
+                    background: var(--primaryColor);
+                    box-shadow: 0 0.5rem 1rem var(--lightgreyColor);
+                    padding: 1.5rem;
+                    height: 42vh;
+    
+    
+                    .newsletter-image {
+                        width: 39rem;
+                        height: 20rem;
+                        background-image: url('../Assets/Images/Commercial/a.jpg');
+                        border-radius: 0.7rem;
+                        background-position: center;
+                        background-size: cover;
+                        background-repeat: no-repeat;
+    
+                    }
+    
+                    .newsletter-text {
+    
+                        font-size: var(--fs-400);
+    
+                        #form {
+                            margin-top: 1rem;
+    
+                            input {
+                                width: 39rem;
+                                height: 4rem;
+                                border: none;
+                                background: var(--lightgreyColor);
+                                border-radius: 0.5rem;
+    
+    
+                            }
+                        }
+    
+                        .sub-btn {
+    
+                            transform: translate(28rem, -3.45rem);
+                            border-radius: 0.5rem;
+                            padding: 0.7rem 2rem;
+                        }
+                    }
+                }
+            }
+        }
+}
+@media screen and(min-width:912px) {
+    .newsletter-container {
+            overflow-x: hidden;
+            margin-top: 7rem;
+            width: 100%;
+            min-height: 50vh;
+    
+            .newsletter-wrapper {
+                width: 87%;
+                    margin: 0 auto;
+                .newsletter-content {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    place-items: center;
+                    gap: 2rem;
+                    background: var(--primaryColor);
+                    box-shadow: 0 0.5rem 1rem var(--lightgreyColor);
+                    padding: 1.5rem;
+                    height: 42vh;
+    
+    
+                    .newsletter-image {
+                        width: 39rem;
+                        height: 20rem;
+                        background-image: url('../Assets/Images/Commercial/a.jpg');
+                        border-radius: 0.7rem;
+                        background-position: center;
+                        background-size: cover;
+                        background-repeat: no-repeat;
+    
+                    }
+    
+                    .newsletter-text {
+    
+                        font-size: var(--fs-400);
+    
+                        #form {
+                            margin-top: 1rem;
+    
+                            input {
+                                width: 39rem;
+                                height: 4rem;
+                                border: none;
+                                background: var(--lightgreyColor);
+                                border-radius: 0.5rem;
+    
+    
+                            }
+                        }
+    
+                        .sub-btn {
+    
+                            transform: translate(28rem, -3.45rem);
+                            border-radius: 0.5rem;
+                            padding: 0.7rem 2rem;
+                        }
+                    }
+                }
+            }
+        }
+}
+@media screen and(min-width:912px) {
+    .newsletter-container {
+            overflow-x: hidden;
+            margin-top: 7rem;
+            width: 100%;
+            min-height: 50vh;
+    
+            .newsletter-wrapper {
+                width: 85%;
+                    margin: 0 auto;
+                .newsletter-content {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    place-items: center;
+                    gap: 6rem;
+                    background: var(--primaryColor);
+                    box-shadow: 0 0.5rem 1rem var(--lightgreyColor);
+                    padding: 1.5rem;
+                    height: 42vh;
+    
+    
+                    .newsletter-image {
+                        width: 39rem;
+                        height: 20rem;
+                        background-image: url('../Assets/Images/Commercial/a.jpg');
+                        border-radius: 0.7rem;
+                        background-position: center;
+                        background-size: cover;
+                        background-repeat: no-repeat;
+    
+                    }
+    
+                    .newsletter-text {
+    
+                        font-size: var(--fs-400);
+    
+                        #form {
+                            margin-top: 1rem;
+    
+                            input {
+                                width: 39rem;
+                                height: 4rem;
+                                border: none;
+                                background: var(--lightgreyColor);
+                                border-radius: 0.5rem;
+    
+    
+                            }
+                        }
+    
+                        .sub-btn {
+    
+                            transform: translate(28rem, -3.45rem);
+                            border-radius: 0.5rem;
+                            padding: 0.7rem 2rem;
+                        }
+                    }
+                }
+            }
+        }
+}
+@media screen and(min-width:912px) {
+    .newsletter-container {
+            overflow-x: hidden;
+            margin-top: 7rem;
+            width: 100%;
+            min-height: 50vh;
+    
+            .newsletter-wrapper {
+                width: 87%;
+                    margin: 0 auto;
+                .newsletter-content {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    place-items: center;
+                    gap: 2rem;
+                    background: var(--primaryColor);
+                    box-shadow: 0 0.5rem 1rem var(--lightgreyColor);
+                    padding: 1.5rem;
+                    height: 42vh;
+    
+    
+                    .newsletter-image {
+                        width: 39rem;
+                        height: 20rem;
+                        background-image: url('../Assets/Images/Commercial/a.jpg');
+                        border-radius: 0.7rem;
+                        background-position: center;
+                        background-size: cover;
+                        background-repeat: no-repeat;
+    
+                    }
+    
+                    .newsletter-text {
+    
+                        font-size: var(--fs-400);
+    
+                        #form {
+                            margin-top: 1rem;
+    
+                            input {
+                                width: 39rem;
+                                height: 4rem;
+                                border: none;
+                                background: var(--lightgreyColor);
+                                border-radius: 0.5rem;
+    
+    
+                            }
+                        }
+    
+                        .sub-btn {
+    
+                            transform: translate(28rem, -3.45rem);
+                            border-radius: 0.5rem;
+                            padding: 0.7rem 2rem;
+                        }
+                    }
+                }
+            }
+        }
+}
+@media screen and(min-width:1024px) {
+    .newsletter-container {
+            overflow-x: hidden;
+            margin-top: 7rem;
+            width: 100%;
+            min-height: 50vh;
+    
+            .newsletter-wrapper {
+                width: 85%;
+                    margin: 0 auto;
+                .newsletter-content {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    place-items: center;
+                    gap: 10rem;
+                    background: var(--primaryColor);
+                    box-shadow: 0 0.5rem 1rem var(--lightgreyColor);
+                    padding: 1.5rem;
+                    height: 42vh;
+    
+    
+                    .newsletter-image {
+                        transform: translateX(2rem);
+                        width: 39rem;
+                        height: 20rem;
+                        background-image: url('../Assets/Images/Commercial/a.jpg');
+                        border-radius: 0.7rem;
+                        background-position: center;
+                        background-size: cover;
+                        background-repeat: no-repeat;
+    
+                    }
+    
+                    .newsletter-text {
+    
+                        font-size: var(--fs-400);
+    
+                        #form {
+                            margin-top: 1rem;
+    
+                            input {
+                                width: 39rem;
+                                height: 4rem;
+                                border: none;
+                                background: var(--lightgreyColor);
+                                border-radius: 0.5rem;
+    
+    
+                            }
+                        }
+    
+                        .sub-btn {
+    
+                            transform: translate(-11rem, 0.01rem);
+                            border-radius: 0.5rem;
+                            padding: 0.7rem 2rem;
+                        }
+                    }
+                }
+            }
+        }
+}
+@media screen and(min-width:1024px) {
+    .newsletter-container {
+            overflow-x: hidden;
+            margin-top: 7rem;
+            width: 100%;
+            min-height: 50vh;
+    
+            .newsletter-wrapper {
+                width: 85%;
+                    margin: 0 auto;
+                .newsletter-content {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    place-items: center;
+                    gap: 10rem;
+                    background: var(--primaryColor);
+                    box-shadow: 0 0.5rem 1rem var(--lightgreyColor);
+                    padding: 1.5rem;
+                    height: 42vh;
+    
+    
+                    .newsletter-image {
+                        transform: translateX(2rem);
+                        width: 39rem;
+                        height: 20rem;
+                        background-image: url('../Assets/Images/Commercial/a.jpg');
+                        border-radius: 0.7rem;
+                        background-position: center;
+                        background-size: cover;
+                        background-repeat: no-repeat;
+    
+                    }
+    
+                    .newsletter-text {
+    
+                        font-size: var(--fs-400);
+    
+                        #form {
+                            margin-top: 1rem;
+    
+                            input {
+                                width: 39rem;
+                                height: 4rem;
+                                border: none;
+                                background: var(--lightgreyColor);
+                                border-radius: 0.5rem;
+    
+    
+                            }
+                        }
+    
+                        .sub-btn {
+    
+                            transform: translate(-11rem, 0.01rem);
+                            border-radius: 0.5rem;
+                            padding: 0.7rem 2rem;
+                        }
+                    }
+                }
+            }
+        }
+}

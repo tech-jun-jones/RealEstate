@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link rel="stylesheet" href="./sass/all.min.css">
+    <link rel="stylesheet" href="./sass/fontawesome.min.css">
+    <link rel="stylesheet" href="./sass/main.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
+    <title>Aiirolafin</title>
+</head>
+<body>
+    <header>
+       <div class=" container">
+        <nav class="navBar">
+            <div class="container-mob col-2">
+
+                <div class="company-name">
+                    <div class="logo">
+                        <h1><a href="">Aiirolafin</a></h1>
+                    </div>
+                </div>
+
+                <div class="navlist">
+                    <ul class="navlinks">
+                        <li><a href="#home" class="scroll-link">Home</a></li>
+                        <li><a href="#properties" class="scroll-link">Properties</a></li>
+                        <li><a href="#services" class="scroll-link">Services</a></li>
+                        <li><a href="#deals" class="scroll-link">Deals</a></li>
+                        <li><a href="#about" class="scroll-link">About Us</a></li>
+                        
+                    </ul>
+                </div>
+                <div class="contact-lang">
+                    <div class="lang">
+
+                        <select name="lang" id="lang">
+                         <option value="LANG">LANG</option>
+                         <option value="LANG">English</option>
+                         <option value="LANG">Yoruba</option>
+                         <option value="LANG">Hausa</option>
+                         <option value="LANG">Igbo</option>
+                        </select>
+
+                    </div>
+                    <div class="contact">
+                        <button type="button" class="btn btn-contact"><a href="#">Contact Us</a></button>
+                    </div>
+
+                    <!-- <div class="darkmode">
+                        <button type="button" class="btn btn-darkmode">
+                            <span><i class="fa fa-moon" id="moon"></i></span>
+                            <span><i class="fa fa-sun" id="sun"></i></span>
+                        </button>
+                    
+                    </div> -->
+
+                </div>
+                <div class="menu-darkmode-lang">
+                    <div class="lang-wrapper">
+                        
+                        <select name="lang" id="lang">
+                            <option value="LANG">LANG</option>
+                            <option value="LANG">English</option>
+                            <option value="LANG">Yoruba</option>
+                            <option value="LANG">Hausa</option>
+                            <option value="LANG">Igbo</option>
+                        </select>
+
+                    </div>
+                    <!-- <div class="darkmode">
+                        <button type="button" class="btn btn-darkmode">
+                            <span><i class="fa fa-moon" id="moon"></i></span>
+                            <span><i class="fa fa-sun" id="sun"></i></span>
+                        </button>
+
+                    </div> -->
+
+                    <div class="menu-wrapper">
+
+                        <button type="button" class="btn btn-menu">Menu</button>
+                    </div>
+                    
+                </div>
+
+            </div>
+        </nav>
+       </div>
+    </header>
+
+    <main>
+        <section id="home">
+            <div class="hero-container container">
+                <div class="hero-wrapper">
+                    <div class="hero-content">
+                        <div class="hero-text">
+                            <h1>Easiest way to find <br> your dream place</h1>
+                            <br>
+                            <br>
+                            <p>This is where you can find a dream place for your of <br> different types, all over Nigerian at affordable prices.</p>
+                        </div>
+
+                        <div class="hero-image">
+                            <img src="./Assets/Images/banner/hero-banner.png" alt="">
+                        </div>
+                            
+                            <div class="buy-rent-container">
+                                <div class="buy-rent-wrapper">
+                                    <div class="buy-rent-content-wrapper">
+                                        <!-- <div class="buy-rent-header">
+                                           
+                                                <h2 class=" buy active1" data-id="buy" id="btn">Buy</h2>
+                                            
+
+                                           
+
+                                                <h2 class="rent" data-id="rent" id="btn">Rent</h2>
+                                           
+                                        </div> -->
+                    <div class="buy-field content active2" id="buy">
+                        <form action="#" id="buy-form">
+
+                    <div class="key-word">
+                        <select name="keyword" id="keyword">
+                            <option value="keyword">Key-word</option>
+                            <option value="Buy">Buy</option>
+                            <option value="Rent">Rent</option>
+                            <option value="Sell">Sell</option>
+                           
+                        </select>
+                    </div>
+                    <div class="location">
+                        <select name="location" id="location">
+                            <option id="Location" value="Location">Location</option>
+                            <option value="Logos">Logos</option>
+                            <option value="Abuja">Abuja</option>
+                            <option value="Ogun">Ogun</option>
+                            <option value="Delta">Delta</option>
+                            <option value="Kano">Kano</option>
+                            <option value="Oyo">Oyo</option>
+                            <option value="Anambra">Anambra</option>
+                        </select>
+                    </div>
+                                                                                                                                                                        
+                    <div class="property">
+                        <select name="property" id='property'>
+                            <option value="Property">Property-Type</option>
+                            <option value="Apartment">Apartment</option>
+                            <option value="Office">Office</option>
+                            <option value="Land">Land</option>
+                            <option value="Commercial">Commercial</option>
+                        </select>
+                    </div>
+                    <div class="price">
+                        <select name="price" id="price">Price
+                            <option value="Budget">Budget</option>
+                            <option value="price">500, 000</option>
+                            <option value="price">1,000,000</option>
+                            <option value="price">250,000</option>
+                            <option value="price">1500,000</option>
+                            <option value="price">2,000,000</option>
+                            <option value="price">2,500,000</option>
+                            <option value="price">3,000,000</option>
+                        </select>
+                    </div>
+                    <div class="form-btn">
+                    
+                        <button type="submit" class="btn">Search</button> 
+                    </div>
+
+                   </form>
+                   </div>
+                                        <!-- <div class="rent-field content" id="rent">
+                                            <form action="#" id="rent-form">
+    
+                                                <div class="location">
+                                                    <select name="location" id="location">
+                                                        <option value="Location">Location</option>
+                                                        <option value="Logos">Logos</option>
+                                                        <option value="Abuja">Abuja</option>
+                                                        <option value="Ogun">Ogun</option>
+                                                        <option value="Delta">Delta</option>
+                                                        <option value="Kano">Kano</option>
+                                                        <option value="Oyo">Oyo</option>
+                                                        <option value="Anambra">Anambra</option>
+                                                    </select>
+                                                </div>
+                                                
+                                                <div class="property">
+                                                    <select name="property" id="property">
+                                                        <option value="Property">Any Property-Type</option>
+                                                        <option value="Apartment">Apartment</option>
+                                                        <option value="Office">Office</option>
+                                                        <option value="Land">Land</option>
+                                                        <option value="Commercial">Commercial</option>
+                                                    </select>
+                                                </div>
+                                                <div class="price">
+                                                    <select name="price" id="price">Price
+                                                        <option value="Budget">Any Budget</option>
+                                                        <option value="price">500, 000</option>
+                                                        <option value="price">1,000,000</option>
+                                                        <option value="price">250,000</option>
+                                                        <option value="price">1500,000</option>
+                                                        <option value="price">2,000,000</option>
+                                                        <option value="price">2,500,000</option>
+                                                        <option value="price">3,000,000</option>
+                                                    </select>
+                                                </div>
+                                                <div class="form-btn">
+                                                
+                                                    <button type="submit" class="btn">Search</button>
+                                                </div>
+        
+                                            </form>
+ 
+                                        </div> -->
+
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        
+                        
+                        <div class="number-container">
+
+                            <div class="award">
+                                <span class="number-award" data-value="200">200</span>
+                                <p>Award <br> Winning</p>
+
+                            </div>
+                            <div class="happy">
+                                <span class="number" data-value="700">0</span>
+                                <p>Happy <br> Customer</p>
+                            </div>
+                            <div class="ready-property">
+                                <span class="number" data-value="1000">0</span>
+                                <p>Property <br> Ready</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="property container" id='properties'>
+            <div class="property-wrapper container-mob">
+                <div class="property-header">
+                    <h1>Find The Best Properties</h1>
+                    <div class="property-filterBtn">
+                        <!-- <h3 class="filterBtn active3" data-id="all">All</h3>
+                        <h3 class="filterBtn" data-id="residential" >Residential<h3>
+                        <h3 class="filterBtn" data-id="commercial">Commercial</h3> -->
+
+                    </div>
+                </div>
+                <div class="property-content-container">
+                <!-- <div class="property-details">
+                    <div class="property-details-container">
+                        <div class="image">
+                            <img src="./Assets/Images/Residential/1.jpg" alt="resident">
+                        </div>
+                        <div class="house-details">
+                            <div class="house-title">
+                              <h2>Immaculate 5 Bed, Apartment.</h2>  
+                            </div>
+                            
+                            <div class="house-location">
+                                <h2>Park-View, Ikoyi.</h2>
+                            </div>
+                            
+                           
+                            <p><Span><i class="fa fa-map-marker" aria-hidden="true"></i></Span> Lagos</p>
+
+                        </div>
+
+                        <div class="home-info">
+                            <span>5 Beds</span>
+                            <span>6 Baths</span>
+                            <span>123 m</span>
+                        </div>
+                        <div class="more-details">
+
+                            <button type="submit" class="btn details-btn"> More Details <span><i class="fa fa-arrow-right"></i></span></button>
+                        </div>
+                    </div>
+                </div> -->
+                </div>
+                <div class="explore-properties">
+                <button type="submit" class="btn explore-btn"><a href="">Explore More Properties</a> </button>
+                </div>
+               
+
+            </div>
+        </section>
+
+        <section class="services container" id="services">
+            <div class="services-wrapper container-mob">
+                <div class="services-header">
+                    <h1>Our Services</h1>
+                </div>
+
+                <div class="services-content">
+                    <div class="service-content-container">
+                       
+                        <img src="./Assets/Images/service/buy.jpeg" alt="buy">
+                        <h2>Buy A Property</h2>
+                        <p>Buy Your Dream Property</p>
+                        <div class="find-property">
+                            <h2>
+                                <a href="#">
+                                    Find A property <span><i class="fa fa-arrow-right"></i></span>
+                                </a>
+                            </h2>
+                        </div>
+                     
+                    </div>
+                    <div class="service-content-container">
+                       
+                        <img src="./Assets/Images/service/rent.jpeg" alt="buy">
+                        <h2>Buy A Property</h2>
+                        <p>Easily Sell Your Property</p>
+                        <div class="find-property">
+                            <h2>
+                            <a href="#">
+                            Find A Property <span><i class="fa fa-arrow-right"></i></span>
+                            </a>
+                            </h2>
+                        </div>
+                     
+                    </div>
+                    <div class="service-content-container">
+                       
+                        <img src="./Assets/Images/service/sell.jpeg" alt="buy">
+                        <h2>Buy A Property</h2>
+                        <p>Rent A Landed Property</p>
+                        <div class="find-property">
+                        <h2>
+                            <a href="#">
+                                Find A Property <span><i class="fa fa-arrow-right"></i></span>
+                            </a>
+                        </h2>
+                        </div>
+                     
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="deal-container container" id="deals">
+            <div class="deal-wrapper container-mob">
+                <div class="deal-header">
+                    <h1>Best Deals For You</h1>
+                </div>
+                <div class="deal-content">
+                    <artticle class="residential-deal">
+                       
+                       <div class="large-image">
+                        <img src="./Assets/Images/Residential/3.jpg" alt="resident" class="largeImage">
+                        <p>Residential</p>
+                        <div class="image-property-details">
+                            <h2>65 Broome New, <span>930 ParkView, Ikoyi, RI02840</span></h2>
+                            <div class="image-property-info">
+                                <div class="bedroom">
+                                    <h3>Bedrooms</h3>
+                                    <span>5 <span style="padding-left:0.5rem;"><i class="fa-solid fa-bed"></i></span></span>
+                                </div>
+                                <div class="built">
+                                    <h3>Built</h3>
+                                    <span>2022</span>
+                                </div>
+                                <div class="bathroom">
+                                    <h3>Bathrooms</h3>
+                                    <span>5 <span style="padding-left:0.5rem;"><i class="fa-solid fa-sink"></i></span></span>
+                                </div>
+                                <div class="parking">
+                                    <h3>Parking</h3>
+                                    <span>3 Indoors</span>
+                                </div>
+                                <div class="area">
+                                    <h3>Area</h3>
+                                    <span>2,048 ft</span>
+                                </div>
+                            </div>
+                        </div>
+                       </div>
+                       <div class="small-image-text">
+                       <div class="small-image">
+                              <img src="./Assets/Images/Residential/bed.jpg"       alt="bedroom" class="smallImage">
+                              <img src="./Assets/Images/Residential/living.jpg"       alt="bedroom" class="smallImage">
+                              <img src="./Assets/Images/Residential/kitchen.jpg"       alt="bedroom" class="smallImage">
+                              <img src="./Assets/Images/Residential/bath.jpg"       alt="bedroom" class="smallImage">
+                              <img src="./Assets/Images/Residential/3.jpg"       alt="bedroom" class="smallImage" id="unique">
+                        </div>
+                        <div class="text-info">
+                              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, inventore reiciendis animi optio magnam perferendis laborum possimus enim.</p>
+                              <div class="contact-now">
+                                  <button type="button" class="btn contactnow-btn">Contact Now<span><i class="fa fa-arrow-right"></i></span></button>
+                              </div>
+                        </div>
+                       </div>
+                   
+                </artticle>
+
+
+                    <artticle class="commercial-deal">
+                    
+                       <div class="large-image">
+                      
+                        <img src="./Assets/Images/Commercial/1.jpg" alt="commercial" class="comm-largeImage">
+                        <p>Commercial</p>
+                        <div class="image-property-details">
+                            <h2>65 Glassborn Tower, <span>930 Vitoria Island, IV, WI02840</span></h2>
+                            <div class="image-property-info">
+                                <div class="floor">
+                                    <h3>Floors</h3>
+                                    <span>15 Floors</i></span></span>
+                                </div>
+                                <div class="built">
+                                    <h3>Built</h3>
+                                    <span>2019</span>
+                                </div>
+                                <div class="restroom">
+                                    <h3>Restrooms</h3>
+                                    <span>2 <span style="padding-left:0.5rem;"><i class="fa-solid fa-sink"></i></span></span>
+                                </div>
+                                <div class="parking">
+                                    <h3>Parking</h3>
+                                    <span>5,048ft</span>
+                                </div>
+                                <div class="area">
+                                    <h3>Area</h3>
+                                    <span>10,048 ft</span>
+                                </div>
+                            </div>
+                        </div>
+                       </div>
+                       <div class="small-image-text">
+                       <div class="small-image">
+                        <img src="./Assets/Images/Commercial/office.jpg" alt="office" class="comm-smallImage">
+                        <img src="./Assets/Images/Commercial/meetroom.jpg" alt="meetroom" class="comm-smallImage">
+                        <img src="./Assets/Images/Commercial/officefloor.jpg" alt="officefloor" class="comm-smallImage">
+                        <img src="./Assets/Images/Commercial/kofficekitch.jpg" alt="officekitchen" class="comm-smallImage">
+                        <img src="./Assets/Images/Commercial/1.jpg" alt="comercial" class="comm-smallImage" id="unique">
+                       </div>
+                       <div class="text-info">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, inventore reiciendis animi optio magnam perferendis laborum possimus enim.</p>
+                        <div class="contact-now">
+                            <button type="button" class="btn contactnow-btn">Contact Now <span><i class="fa fa-arrow-right"></i></span></button>
+                        </div>
+                       </div>
+                       </div>
+                   
+                </artticle>
+                </div>
+                
+            </div>
+        </section>
+
+        <section class="about-container container" id="about">
+            <div class="about-wrapper container-mob">
+                <div class="about-header">
+                    <h1>About Us</h1>
+                </div>
+                <div class="about-content">
+                    <div class="about-content-col">
+                        <div class="content-text">
+                            <h2>Helping People To Find the Best Quality <br> Property Within Budget</h2>
+                            <p>Aiirolafin  can help you easily find a house , apartment, offices for rent, sell, or buy that you will love. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas aliquam eum dolorum! Natus odio earum alias ea reprehenderit consequuntur porro, itaque rem possimus iusto nobis voluptate sequi necessitatibus ullam, animi impedit enim placeat perspiciatis fugiat!</p>
+                            <div class="read-more">
+                                <button type="button" class="btn readMore">Read More<span><i class="fa fa-arrow-right"></i></span></button>
+                            </div>
+                        </div>
+                        <div class="about-image">
+                            <img src="./Assets/Images/Commercial/1a.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="about-content-col2">
+                        <div class="years">
+                            <h3>8 Years</h3>
+                            <p>Of Successive Experience <br> in Real Estate Management</p>
+                        </div>
+                        <div class="building">
+                            <h3>20/30</h3>
+                            <p>New Building Built <br> every Qauter</p>
+                        </div>
+                        <div class="client">
+                            <h3>20</h3>
+                            <p>New Client Every <br> Month</p>
+                        </div>
+
+                    </div>
+                </div>
+                 
+            </div>
+        </section>
+        <section class="reviews-container">
+            <div class="reviews-wrapper container-mob">
+                <div class="reviews-header">
+                    <h1>Reviews</h1>
+                </div>
+                <div class="reviews-content-container">
+                    <!-- <div class="reviews-content">
+                        <div class="review-image">
+                            <img src="./Assets/Images/profile/pic-1.png" alt="">
+                        </div>
+                        <div class="custo-name">
+                            <h2>Peter Obi</h2>
+                        </div>
+                        <div class="reviews-text">
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error nobis laudantium reprehenderit, repellendus velit soluta sint id veniam.</p>
+                        </div>
+
+                        <div class="icon">
+                            <i class="fa fa-quote-right"></i>
+                        </div>
+
+                    </div> -->
+
+                </div>
+                
+                <div class="btn-icons">
+                    <div class="btn-left">
+                        <i class="fa fa-less-than"></i>
+                    </div>
+                    <div class="btn-right">
+                        <i class="fa fa-greater-than"></i>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="newsletter-container">
+            <div class="newsletter-wrapper container-mob">
+                <div class="newsletter-content">
+                    <div class="newsletter-image">
+                        
+                    </div>
+                    <div class="newsletter-text">
+                        <h2>Subscribe to our <br> Newsletter</h2>
+                        <form action="#" id="form">
+                            <input type="email" name='email' id='email' palceholder="Enter Your E-mal">
+                            <button type="submit" class="btn sub-btn">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    
+    </main>
+
+    <footer>
+        <section class="footer-container">
+            <div class="footer-wrapper container-mob">
+                <div class="footer-content">
+                    <div class="logo-name">
+                        <h1>Aiirolafin</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur <br>adipisicing elit. Nesciunt, maiores?</p>
+                        <div class="social-media">
+                            <i class="fab fa-facebook"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                    </div>
+                    <div class="resources">
+                        <h1>Resources</h1>
+                        <p>Our Agents</p>
+                        <p>Menbership</p>
+                        <p>Free trial</p>
+                    </div>
+                    <div class="company">
+                        <h1>Company</h1>
+                        <p>Partnership</p>
+                        <p>Terms of use</p>
+                        <p>Privacy</p>
+                        <p>Sitemap</p>
+                    </div>
+
+                </div>
+
+                <div class="reserve">
+                    <p>&copy; <span id="date">2020</span> Aiirolafin All-Right Reserver </p>
+                </div>
+
+            </div>
+        </section>
+    </footer>
+
+    <!-- <div class="sidebar-wrapper">
+        <div class="sidebar">
+            <div class="sidebar-btn">
+                <button type="button" class="btn btn-menu"><a href="#"><i class="fa fa-time"></i> </a></button>
+            </div>
+        </div>
+    </div> -->
+
+
+    <script type="module" src="./app.js"></script>
+</body>
+</html>
