@@ -5,15 +5,26 @@
     min-height: 90vh;
     overflow: hidden;
     overflow-x: hidden;
+    background: url('../Assets/Images/banner/hero-banner.png');
+    background-position:50% right;
+    background-repeat:no-repeat;
+    background-size: cover;
     .hero-wrapper {
-      width: 90%;
-        margin: 0 auto;
+      max-width: 90vw;
+      margin: 0 auto;
+
       .hero-content {
-        display: grid;
+        display:flex;
+        flex-direction:column;
+        height:100vh;
+        // margin-top: 7rem;
+      
+
+
         .hero-text {
-            transform:translateY(5rem);
-            z-index: 1;
-         
+           
+   
+        
           h1 {
             font-size: var(--fs-1000);
           }
@@ -24,22 +35,17 @@
           }
         }
 
-        .hero-image{
-
-            position: relative;
-            top: -15%;
-            
-        }
+       
 
         .buy-rent-container {
-          position: absolute;
-          top: 42%;
+              margin-top: 1rem;
+          
           .buy-rent-wrapper {
            
             
             .buy-rent-content-wrapper {
                 background-color: var(--lightColor);
-                max-width:100%;
+                width:90vw;
                 border-radius: 0.5rem;
                 padding-top: 1rem;
                 
@@ -65,9 +71,7 @@
 
                 #location, #property, #price, #keyword{
                     
-                    width: 26.8rem;
-                    
-                    height: 3.5rem;
+                    width: 85vw;
                     border:none;
                     border-bottom: 0.2rem solid var(--secondaryColor);
                     padding-left:0.5rem;
@@ -115,18 +119,18 @@
 
 
         .number-container{
-          position: absolute;
-            top: 58rem;
+        
             display: flex;
             gap: 2.5rem;
+            margin-top: 1rem;
             
             & *span{
-              font-size: var(--fs-900);
+              font-size: var(--fs-800);
                color: var(--numberColor);
               font-weight: 600;
             }
             & *p{
-              font-size: var(--fs-400);
+              font-size: var(--fs-300);
               font-weight: 500;
             }
         }
@@ -135,60 +139,212 @@
   }
 }
 
+@media screen and (min-width:360px) {
 
+  #home {
+      .hero-container {
+        min-height: 90vh;
+        overflow: hidden;
+        overflow-x: hidden;
+        background: url('../Assets/Images/banner/hero-banner.png');
+        background-position: 50% right;
+        background-repeat: no-repeat;
+        background-size: cover;
+  
+        .hero-wrapper {
+          max-width: 90vw;
+          margin: 0 auto;
+  
+          .hero-content {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            // margin-top: 7rem;
+  
+  
+  
+            .hero-text {
+  
+              margin-top: 3rem;
+  
+              h1 {
+                font-size: var(--fs-1000);
+              }
+  
+              p {
+                font-size: var(--fs-300);
+                color: var(--secondaryColor);
+                // font-weight: 600;
+              }
+            }
+  
+  
+  
+            .buy-rent-container {
+              margin-top: 2rem;
+  
+              .buy-rent-wrapper {
+  
+  
+                .buy-rent-content-wrapper {
+                  background-color: var(--lightColor);
+                  width: 90vw;
+                  border-radius: 0.5rem;
+                  padding-top: 1rem;
+  
+  
+                  .buy-rent-header {
+                    display: flex;
+                    gap: 2rem;
+                    padding: 1rem;
+                    background-color: var(--primaryColor);
+                    width: fit-content;
+                    position: relative;
+                    cursor: pointer;
+                    margin-left: 1rem;
+  
+                  }
+  
+                  .active1 {
+                    padding-bottom: 0.2rem;
+                    border-bottom: 0.2rem solid var(--secondaryColor);
+                    transition: transform 0.6s ease-in-out;
+  
+  
+                  }
+  
+                  #location,
+                  #property,
+                  #price,
+                  #keyword {
+  
+                    width: 85vw;
+                    border: none;
+                    border-bottom: 0.2rem solid var(--secondaryColor);
+                    padding-left: 0.5rem;
+                    padding-bottom: 0.1rem;
+                    font-size: var(--fs-400);
+                    font-weight: 600;
+                    color: var(--secondaryColor);
+                    background: transparent;
+                    cursor: pointer;
+  
+                    & option {
+                      color: var(--secondaryColor);
+  
+                    }
+                  }
+  
+  
+  
+  
+                  .location,
+                  .property,
+                  .price,
+                  .key-word,
+                  .form-btn {
+  
+                    padding: 1rem;
+                    margin: 0;
+                  }
+  
+                  .form-btn {
+                    .btn {
+                      width: 100%;
+                      height: 3.5rem;
+                      border: none;
+                      border-radius: 0.5rem;
+                    }
+                  }
+  
+                  .content {
+                    display: none;
+  
+                  }
+  
+                  .active2 {
+                    display: block;
+                  }
+                }
+              }
+            }
+  
+  
+            .number-container {
+  
+              display: flex;
+              gap: 2.5rem;
+              margin-top: 3.5rem;
+  
+              & *span {
+                font-size: var(--fs-800);
+                color: var(--numberColor);
+                font-weight: 600;
+              }
+  
+              & *p {
+                font-size: var(--fs-300);
+                font-weight: 500;
+              }
+            }
+          }
+        }
+      }
+    }
+
+
+
+
+}
 
 @media screen and (min-width:375px) {
 
 #home {
     .hero-container {
       min-height: 90vh;
-      // overflow: hidden;
+      overflow: hidden;
       overflow-x: hidden;
+      background: url('../Assets/Images/banner/hero-banner.png');
+      background-position: 50% right;
+      background-repeat: no-repeat;
+      background-size: cover;
 
       .hero-wrapper {
-        width: 90%;
-          margin: 0 auto;
+        max-width: 90vw;
+        margin: 0 auto;
+
         .hero-content {
-          display: grid;
+          display: flex;
+          flex-direction: column;
+          height: 100vh;
+
+
 
           .hero-text {
-            transform: translateY(3.5rem);
-            z-index: 1;
-           
+
+            margin-top:3rem;
 
             h1 {
-              font-size: var(--fs-1100);
+              font-size: var(--fs-1000);
             }
 
             p {
-              font-size: var(--fs-400);
-              color: var(--secondary Color);
+              font-size: var(--fs-300);
+              color: var(--secondaryColor);
+              // font-weight: 600;
             }
           }
 
-          .hero-image {
 
-            position: relative;
-            // img{
-
-            //     // width: 100%;
-            //     // min-height: 100%;
-            //     // position: relative;
-            // }
-          }
 
           .buy-rent-container {
-            position: absolute;
-            top: 42%;
-            
 
             .buy-rent-wrapper {
-             
+
 
               .buy-rent-content-wrapper {
                 background-color: var(--lightColor);
-      
-                width: fit-content;
+                width: 100vw;
                 border-radius: 0.5rem;
                 padding-top: 1rem;
 
@@ -198,38 +354,35 @@
                   gap: 2rem;
                   padding: 1rem;
                   background-color: var(--primaryColor);
-                
                   width: fit-content;
-           
-                  margin-left: 1rem;
                   position: relative;
+                  cursor: pointer;
+                  margin-left: 1rem;
 
-
-                 
-                  
                 }
-               .active1{
+
+                .active1 {
                   padding-bottom: 0.2rem;
                   border-bottom: 0.2rem solid var(--secondaryColor);
                   transition: transform 0.6s ease-in-out;
-               
-                  
+
+
                 }
 
                 #location,
                 #property,
-                #price {
+                #price,
+                #keyword {
 
-                  width: 32rem;
-                  height: 3.5rem;
+                  width: 85vw;
                   border: none;
                   border-bottom: 0.2rem solid var(--secondaryColor);
-                    padding-left: 0.5rem;
-                    padding-bottom: 0.1rem;
-                    font-size: var(--fs-400);
-                    font-weight: 600;
-                    color: var(--secondaryColor);
-                    background: transparent;
+                  padding-left: 0.5rem;
+                  padding-bottom: 0.1rem;
+                  font-size: var(--fs-400);
+                  font-weight: 600;
+                  color: var(--secondaryColor);
+                  background: transparent;
                   cursor: pointer;
 
                   & option {
@@ -240,12 +393,15 @@
 
 
 
+
                 .location,
                 .property,
                 .price,
+                .key-word,
                 .form-btn {
 
                   padding: 1rem;
+                  margin: 0;
                 }
 
                 .form-btn {
@@ -257,13 +413,13 @@
                   }
                 }
 
-                .content{
+                .content {
                   display: none;
 
                 }
-                .active2{
+
+                .active2 {
                   display: block;
-                  transition: all 0.6s ease-in-out;
                 }
               }
             }
@@ -271,20 +427,21 @@
 
 
           .number-container {
-            position: absolute;
-            top: 58rem;
+
             display: flex;
-            gap: 2rem;
+            gap: 2.5rem;
+            margin-top: 3.5rem;
+
             & *span {
-                font-size: var(--fs-900);
-                color: var(--numberColor);
-                font-weight: 600;
-              }
-            
-              & *p {
-                font-size: var(--fs-500);
-                font-weight: 500;
-              }
+              font-size: var(--fs-800);
+              color: var(--numberColor);
+              font-weight: 600;
+            }
+
+            & *p {
+              font-size: var(--fs-300);
+              font-weight: 500;
+            }
           }
         }
       }
@@ -307,8 +464,7 @@
           display: grid;
 
           .hero-text {
-            transform: translateY(3.5rem);
-            z-index: 1;
+         
          
 
             h1 {
@@ -321,22 +477,9 @@
             }
           }
 
-          .hero-image {
-
-            position: relative;
-            // img{
-
-            //     // width: 100%;
-            //     // min-height: 100%;
-            //     // position: relative;
-            // }
-          }
-
+          
           .buy-rent-container {
-            position: absolute;
-            top: 42%;
-         
-
+            
             .buy-rent-wrapper {
       
 
@@ -365,46 +508,46 @@
                   
                 }
 
-                #location,
-                #property,
-                #price {
+                // #location,
+                // #property,
+                // #price {
 
-                  width: 36.25rem;
-                  height: 3.5rem;
-                  border-bottom: 0.2rem solid var(--secondaryColor);
-                    padding-left: 0.5rem;
-                    padding-bottom: 0.1rem;
-                    font-size: var(--fs-400);
-                    font-weight: 600;
-                    color: var(--secondaryColor);
-                    background: transparent;
-                  cursor: pointer;
+                //   width: 36.25rem;
+                //   height: 3.5rem;
+                //   border-bottom: 0.2rem solid var(--secondaryColor);
+                //     padding-left: 0.5rem;
+                //     padding-bottom: 0.1rem;
+                //     font-size: var(--fs-400);
+                //     font-weight: 600;
+                //     color: var(--secondaryColor);
+                //     background: transparent;
+                //   cursor: pointer;
 
-                  & option {
-                    color: var(--secondaryColor);
+                //   & option {
+                //     color: var(--secondaryColor);
 
-                  }
-                }
-
-
+                //   }
+                // }
 
 
-                .location,
-                .property,
-                .price,
-                .form-btn {
 
-                  padding: 1rem;
-                }
 
-                .form-btn {
-                  .btn {
-                    width: 100%;
-                    height: 3.5rem;
-                    border: none;
-                    border-radius: 0.5rem;
-                  }
-                }
+                // .location,
+                // .property,
+                // .price,
+                // .form-btn {
+
+                //   padding: 1rem;
+                // }
+
+                // .form-btn {
+                //   .btn {
+                //     width: 100%;
+                //     height: 3.5rem;
+                //     border: none;
+                //     border-radius: 0.5rem;
+                //   }
+                // }
 
                 .content {
                   display: none;
@@ -419,22 +562,22 @@
           }
 
 
-          .number-container {
-            position: absolute;
-            top: 57rem;
-            display: flex;
-            gap: 3rem;
-            & *span {
-                font-size: var(--fs-900);
-                color: var(--numberColor);
-                font-weight: 600;
-              }
+          // .number-container {
+          //   position: absolute;
+          //   top: 57rem;
+          //   display: flex;
+          //   gap: 3rem;
+          //   & *span {
+          //       font-size: var(--fs-900);
+          //       color: var(--numberColor);
+          //       font-weight: 600;
+          //     }
             
-              & *p {
-                font-size: var(--fs-500);
-                font-weight: 500;
-              }
-          }
+          //     & *p {
+          //       font-size: var(--fs-500);
+          //       font-weight: 500;
+          //     }
+          // }
         }
       }
     }
@@ -452,12 +595,9 @@
         width: 90%;
           margin: 0 auto;
         .hero-content {
-          display: grid;
+       
 
           .hero-text {
-            transform: translateY(3.5rem);
-            z-index: 1;
-         
 
             h1 {
               font-size: var(--fs-1100);
@@ -469,21 +609,9 @@
             }
           }
 
-          .hero-image {
-
-            position: relative;
-            // img{
-
-            //     // width: 100%;
-            //     // min-height: 100%;
-            //     // position: relative;
-            // }
-          }
+          
 
           .buy-rent-container {
-            position: absolute;
-            top: 42%;
-         
 
             .buy-rent-wrapper {
       
@@ -513,46 +641,46 @@
                   
                 }
 
-                #location,
-                #property,
-                #price {
+                // #location,
+                // #property,
+                // #price {
 
-                  width: 39.4rem;
-                  height: 3.5rem;
-                  border-bottom: 0.2rem solid var(--secondaryColor);
-                    padding-left: 0.5rem;
-                    padding-bottom: 0.1rem;
-                    font-size: var(--fs-400);
-                    font-weight: 600;
-                    color: var(--secondaryColor);
-                    background: transparent;
-                  cursor: pointer;
+                //   width: 39.4rem;
+                //   height: 3.5rem;
+                //   border-bottom: 0.2rem solid var(--secondaryColor);
+                //     padding-left: 0.5rem;
+                //     padding-bottom: 0.1rem;
+                //     font-size: var(--fs-400);
+                //     font-weight: 600;
+                //     color: var(--secondaryColor);
+                //     background: transparent;
+                //   cursor: pointer;
 
-                  & option {
-                    color: var(--secondaryColor);
+                //   & option {
+                //     color: var(--secondaryColor);
 
-                  }
-                }
-
-
+                //   }
+                // }
 
 
-                .location,
-                .property,
-                .price,
-                .form-btn {
 
-                  padding: 1rem;
-                }
 
-                .form-btn {
-                  .btn {
-                    width: 100%;
-                    height: 3.5rem;
-                    border: none;
-                    border-radius: 0.5rem;
-                  }
-                }
+                // .location,
+                // .property,
+                // .price,
+                // .form-btn {
+
+                //   padding: 1rem;
+                // }
+
+                // .form-btn {
+                //   .btn {
+                //     width: 100%;
+                //     height: 3.5rem;
+                //     border: none;
+                //     border-radius: 0.5rem;
+                //   }
+                // }
 
                 .content {
                   display: none;
@@ -567,22 +695,22 @@
           }
 
 
-          .number-container {
-            position: absolute;
-            top: 57rem;
-            display: flex;
-            gap: 3rem;
-            & *span {
-                font-size: var(--fs-900);
-                color: var(--numberColor);
-                font-weight: 600;
-              }
+          // .number-container {
+          //   position: absolute;
+          //   top: 57rem;
+          //   display: flex;
+          //   gap: 3rem;
+          //   & *span {
+          //       font-size: var(--fs-900);
+          //       color: var(--numberColor);
+          //       font-weight: 600;
+          //     }
             
-              & *p {
-                font-size: var(--fs-500);
-                font-weight: 500;
-              }
-          }
+          //     & *p {
+          //       font-size: var(--fs-500);
+          //       font-weight: 500;
+          //     }
+          // }
         }
       }
     }
@@ -595,21 +723,15 @@
 #home {
     .hero-container {
       min-height: 90vh;
-      // overflow: hidden;
-      // overflow-x: hidden;
+
 
       .hero-wrapper {
       width: 90%;
         margin: 0 auto;
         .hero-content {
-          display: grid;
-          grid-template-columns: repeat(2, 1fr);
-     
-        
-
+         
           .hero-text {
-            transform: translateY(13%);
-            z-index: 1;
+            
             
 
             h1 {
@@ -625,16 +747,10 @@
             }
           }
 
-          .hero-image {
-
-            position: relative;
-            top: 3%;
-            
-          }
+        
 
           .buy-rent-container {
-            position: absolute;
-            top: 55%;
+            
     
 
             .buy-rent-wrapper {
@@ -671,8 +787,7 @@
                 #price,
                 #keyword {
 
-                  width: 12rem;
-                  height: 3.5rem;
+                  width: 15vw;
                   border-bottom: 0.2rem solid var(--secondaryColor);
                     padding-left: 0.5rem;
                     padding-bottom: 0.1rem;
@@ -732,47 +847,45 @@
           }
 
 
-          .number-container {
-            position: absolute;
-            top: 57rem;
-            display: flex;
-            gap: 3rem;
-            & *span {
-                font-size: var(--fs-1000);
-                color: var(--numberColor);
-                font-weight: 600;
-              }
+          // .number-container {
+          //   position: absolute;
+          //   top: 57rem;
+          //   display: flex;
+          //   gap: 3rem;
+          //   & *span {
+          //       font-size: var(--fs-1000);
+          //       color: var(--numberColor);
+          //       font-weight: 600;
+          //     }
             
-              & *p {
-                font-size: var(--fs-500);
-                font-weight: 500;
-              }
-          }
+          //     & *p {
+          //       font-size: var(--fs-500);
+          //       font-weight: 500;
+          //     }
+          // }
         }
       }
     }
   }
 }
+
 @media screen and (min-width:820px) {
 
 #home {
     .hero-container {
       min-height: 90vh;
-      // overflow: hidden;
-      // overflow-x: hidden;
+     
 
       .hero-wrapper {
       width: 87%;
         margin: 0 auto;
         .hero-content {
-          display: grid;
-          grid-template-columns: repeat(2, 1fr);
+     
          
         
 
           .hero-text {
-            transform: translateY(13%);
-            z-index: 1;
+          
             
 
             h1 {
@@ -788,16 +901,11 @@
             }
           }
 
-          .hero-image {
-
-            position: relative;
-            top: 3%;
-            
-          }
+         
 
           .buy-rent-container {
-            position: absolute;
-            top: 55%;
+  
+           
    
 
             .buy-rent-wrapper {
@@ -831,57 +939,57 @@
                   
                 }
 
-                #location,
-                #property,
-                #price,
-                #keyword {
+                // #location,
+                // #property,
+                // #price,
+                // #keyword {
 
-                  width: 12rem;
-                  height: 3.5rem;
-                border-bottom: 0.2rem solid var(--secondaryColor);
-                  padding-left: 0.5rem;
-                  padding-bottom: 0.1rem;
-                  font-size: var(--fs-400);
-                  font-weight: 600;
-                  color: var(--secondaryColor);
-                  background: transparent;
-                  cursor: pointer;
+                //   width: 12rem;
+                //   height: 3.5rem;
+                // border-bottom: 0.2rem solid var(--secondaryColor);
+                //   padding-left: 0.5rem;
+                //   padding-bottom: 0.1rem;
+                //   font-size: var(--fs-400);
+                //   font-weight: 600;
+                //   color: var(--secondaryColor);
+                //   background: transparent;
+                //   cursor: pointer;
                  
 
-                  & option {
-                    color: var(--secondaryColor);
+                //   & option {
+                //     color: var(--secondaryColor);
 
-                  }
-                }
+                //   }
+                // }
 
 
 
-                .location,
-                .property,
-                .price,
-                .form-btn,
-                .key-word {
+                // .location,
+                // .property,
+                // .price,
+                // .form-btn,
+                // .key-word {
 
-                  padding: 1rem;
+                //   padding: 1rem;
                
-                }
-                #buy-form{
-                  display: flex;
-                }
-                #rent-form{
-                  display: flex;
-                }
+                // }
+                // #buy-form{
+                //   display: flex;
+                // }
+                // #rent-form{
+                //   display: flex;
+                // }
 
-                .form-btn {
-                  .btn {
-                    width: 100%;
-                    height: 3.5rem;
-                    border: none;
-                    border-radius: 0.5rem;
-                    padding: 1rem 2rem;
-                    cursor: pointer;
-                  }
-                }
+                // .form-btn {
+                //   .btn {
+                //     width: 100%;
+                //     height: 3.5rem;
+                //     border: none;
+                //     border-radius: 0.5rem;
+                //     padding: 1rem 2rem;
+                //     cursor: pointer;
+                //   }
+                // }
 
                
                 .content{
@@ -897,23 +1005,23 @@
           }
 
 
-          .number-container {
-            position: absolute;
-            top: 57rem;
+          // .number-container {
+          //   position: absolute;
+          //   top: 57rem;
 
-            display: flex;
-            gap: 3rem;
-            & *span {
-                font-size: var(--fs-1000);
-                color: var(--numberColor);
-                font-weight: 600;
-              }
+          //   display: flex;
+          //   gap: 3rem;
+          //   & *span {
+          //       font-size: var(--fs-1000);
+          //       color: var(--numberColor);
+          //       font-weight: 600;
+          //     }
             
-              & *p {
-                font-size: var(--fs-500);
-                font-weight: 500;
-              }
-          }
+          //     & *p {
+          //       font-size: var(--fs-500);
+          //       font-weight: 500;
+          //     }
+          // }
         }
       }
     }
@@ -932,16 +1040,11 @@
       width: 87%;
         margin: 0 auto;
         .hero-content {
-          display: grid;
-          grid-template-columns: repeat(2, 1fr);
+         
 
         
 
           .hero-text {
-            transform: translateY(13%);
-            z-index: 1;
-            
-
             h1 {
               font-size: var(--fs-1200);
               width: 250%;
@@ -955,21 +1058,8 @@
             }
           }
 
-          .hero-image {
-
-            position: relative;
-            top: 3%;
-            // img{
-
-            //     // width: 100%;
-            //     // min-height: 100%;
-            //     // position: relative;
-            // }
-          }
-
           .buy-rent-container {
-            position: absolute;
-            top: 55%;
+           
 
             .buy-rent-wrapper {
 
@@ -1001,56 +1091,56 @@
                   
                 }
 
-                #location,
-                #property,
-                #price, #keyword {
+                // #location,
+                // #property,
+                // #price, #keyword {
 
-                  width: 12rem;
-                  height: 3.5rem;
-                  border-bottom: 0.2rem solid var(--secondaryColor);
-                    padding-left: 0.5rem;
-                    padding-bottom: 0.1rem;
-                    font-size: var(--fs-400);
-                    font-weight: 600;
-                    color: var(--secondaryColor);
-                    background: transparent;
-                  cursor: pointer;
+                //   width: 12rem;
+                //   height: 3.5rem;
+                //   border-bottom: 0.2rem solid var(--secondaryColor);
+                //     padding-left: 0.5rem;
+                //     padding-bottom: 0.1rem;
+                //     font-size: var(--fs-400);
+                //     font-weight: 600;
+                //     color: var(--secondaryColor);
+                //     background: transparent;
+                //   cursor: pointer;
                  
 
-                  & option {
-                    color: var(--secondaryColor);
+                //   & option {
+                //     color: var(--secondaryColor);
 
-                  }
-                }
+                //   }
+                // }
 
 
 
-                .location,
-                .property,
-                .price,
-                .form-btn,
-                .key-word {
+                // .location,
+                // .property,
+                // .price,
+                // .form-btn,
+                // .key-word {
 
-                  padding: 1rem;
+                //   padding: 1rem;
                
-                }
-                #buy-form{
-                  display: flex;
-                }
-                #rent-form{
-                  display: flex;
-                }
+                // }
+                // #buy-form{
+                //   display: flex;
+                // }
+                // #rent-form{
+                //   display: flex;
+                // }
 
-                .form-btn {
-                  .btn {
-                    width: 100%;
-                    height: 3.5rem;
-                    border: none;
-                    border-radius: 0.5rem;
-                    padding: 1rem 2rem;
-                    cursor: pointer;
-                  }
-                }
+                // .form-btn {
+                //   .btn {
+                //     width: 100%;
+                //     height: 3.5rem;
+                //     border: none;
+                //     border-radius: 0.5rem;
+                //     padding: 1rem 2rem;
+                //     cursor: pointer;
+                //   }
+                // }
 
                
                 .content{
@@ -1066,23 +1156,23 @@
           }
 
 
-          .number-container {
-            position: absolute;
-            top: 57rem;
+          // .number-container {
+          //   position: absolute;
+          //   top: 57rem;
          
-            display: flex;
-            gap: 3rem;
-            & *span {
-                font-size: var(--fs-1000);
-                color: var(--numberColor);
-                font-weight: 600;
-              }
+          //   display: flex;
+          //   gap: 3rem;
+          //   & *span {
+          //       font-size: var(--fs-1000);
+          //       color: var(--numberColor);
+          //       font-weight: 600;
+          //     }
             
-              & *p {
-                font-size: var(--fs-500);
-                font-weight: 500;
-              }
-          }
+          //     & *p {
+          //       font-size: var(--fs-500);
+          //       font-weight: 500;
+          //     }
+          // }
         }
       }
     }
@@ -1095,21 +1185,17 @@
 #home {
     .hero-container {
       min-height: 90vh;
-      // overflow: hidden;
-      // overflow-x: hidden;
+  
 
       .hero-wrapper {
       width: 85%;
         margin: 0 auto;
         .hero-content {
-          display: grid;
-          grid-template-columns: repeat(2, 1fr);
-          // column-gap: 20rem;
+         
         
 
           .hero-text {
-            transform: translateY(13%);
-            z-index: 1;
+            
             
 
             h1 {
@@ -1124,16 +1210,8 @@
             }
           }
 
-          .hero-image {
-
-            position: relative;
-            top: 3%;
-            
-          }
-
           .buy-rent-container {
-            position: absolute;
-            top: 55%;
+            
     
 
             .buy-rent-wrapper {
@@ -1166,57 +1244,57 @@
                   
                 }
 
-                #location,
-                #property,
-                #price, 
-                #keyword{
+                // #location,
+                // #property,
+                // #price, 
+                // #keyword{
 
-                  width: 12rem;
-                  height: 3.5rem;
-                  border-bottom: 0.2rem solid var(--secondaryColor);
-                    padding-left: 0.5rem;
-                    padding-bottom: 0.1rem;
-                    font-size: var(--fs-400);
-                    font-weight: 600;
-                    color: var(--secondaryColor);
-                    background: transparent;
-                  cursor: pointer;
+                //   width: 12rem;
+                //   height: 3.5rem;
+                //   border-bottom: 0.2rem solid var(--secondaryColor);
+                //     padding-left: 0.5rem;
+                //     padding-bottom: 0.1rem;
+                //     font-size: var(--fs-400);
+                //     font-weight: 600;
+                //     color: var(--secondaryColor);
+                //     background: transparent;
+                //   cursor: pointer;
                  
 
-                  & option {
-                    color: var(--secondaryColor);
+                //   & option {
+                //     color: var(--secondaryColor);
 
-                  }
-                }
+                //   }
+                // }
 
 
 
-                .location,
-                .property,
-                .price,
-                .form-btn,
-                .key-word {
+                // .location,
+                // .property,
+                // .price,
+                // .form-btn,
+                // .key-word {
 
-                  padding: 1rem;
+                //   padding: 1rem;
                
-                }
-                #buy-form{
-                  display: flex;
-                }
-                #rent-form{
-                  display: flex;
-                }
+                // }
+                // #buy-form{
+                //   display: flex;
+                // }
+                // #rent-form{
+                //   display: flex;
+                // }
 
-                .form-btn {
-                  .btn {
-                    width: 100%;
-                    height: 3.5rem;
-                    border: none;
-                    border-radius: 0.5rem;
-                    padding: 1rem 2rem;
-                    cursor: pointer;
-                  }
-                }
+                // .form-btn {
+                //   .btn {
+                //     width: 100%;
+                //     height: 3.5rem;
+                //     border: none;
+                //     border-radius: 0.5rem;
+                //     padding: 1rem 2rem;
+                //     cursor: pointer;
+                //   }
+                // }
 
                
                 .content{
@@ -1233,8 +1311,7 @@
 
 
           .number-container {
-            position: absolute;
-            top: 57rem;
+           
             display: flex;
             gap: 3rem;
             & *span {
@@ -1268,13 +1345,11 @@
       width: 85%;
         margin: 0 auto;
         .hero-content {
-          display: grid;
-          grid-template-columns: repeat(2, 1fr);
+          
         
 
           .hero-text {
-            transform: translateY(13%);
-            z-index: 1;
+          
             
 
             h1 {
@@ -1288,16 +1363,10 @@
             }
           }
 
-          .hero-image {
-
-            position: relative;
-            top: 3%;
-            
-          }
+         
 
           .buy-rent-container {
-            position: absolute;
-            top: 55%;
+            
         
 
             .buy-rent-wrapper {
@@ -1331,57 +1400,57 @@
                   
                 }
 
-                #location,
-                #property,
-                #price,
-                #keyword {
+                // #location,
+                // #property,
+                // #price,
+                // #keyword {
 
-                  width: 17rem;
-                  height: 3.5rem;
-                  border-bottom: 0.2rem solid var(--secondaryColor);
-                    padding-left: 0.5rem;
-                    padding-bottom: 0.1rem;
-                    font-size: var(--fs-400);
-                    font-weight: 600;
-                    color: var(--secondaryColor);
-                    background: transparent;
-                  cursor: pointer;
+                //   width: 17rem;
+                //   height: 3.5rem;
+                //   border-bottom: 0.2rem solid var(--secondaryColor);
+                //     padding-left: 0.5rem;
+                //     padding-bottom: 0.1rem;
+                //     font-size: var(--fs-400);
+                //     font-weight: 600;
+                //     color: var(--secondaryColor);
+                //     background: transparent;
+                //   cursor: pointer;
                  
 
-                  & option {
-                    color: var(--secondaryColor);
+                //   & option {
+                //     color: var(--secondaryColor);
 
-                  }
-                }
+                //   }
+                // }
 
 
 
-                .location,
-                .property,
-                .price,
-                .form-btn,
-                .key-word {
+                // .location,
+                // .property,
+                // .price,
+                // .form-btn,
+                // .key-word {
 
-                  padding: 1rem;
+                //   padding: 1rem;
                
-                }
-                #buy-form{
-                  display: flex;
-                }
-                #rent-form{
-                  display: flex;
-                }
+                // }
+                // #buy-form{
+                //   display: flex;
+                // }
+                // #rent-form{
+                //   display: flex;
+                // }
 
-                .form-btn {
-                  .btn {
-                    width: 100%;
-                    height: 3.5rem;
-                    border: none;
-                    border-radius: 0.5rem;
-                    padding: 1rem 2rem;
-                    cursor: pointer;
-                  }
-                }
+                // .form-btn {
+                //   .btn {
+                //     width: 100%;
+                //     height: 3.5rem;
+                //     border: none;
+                //     border-radius: 0.5rem;
+                //     padding: 1rem 2rem;
+                //     cursor: pointer;
+                //   }
+                // }
 
                
                 .content{
@@ -1398,8 +1467,7 @@
 
 
           .number-container {
-            position: absolute;
-            top: 57rem;
+         
             display: flex;
             gap: 3rem;
           & *span {
