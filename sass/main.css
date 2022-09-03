@@ -423,6 +423,7 @@ header .container .fixed-nav {
 #home .hero-container .hero-wrapper .hero-content {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   height: 100vh;
 }
 #home .hero-container .hero-wrapper .hero-content .hero-text h1 {
@@ -431,9 +432,6 @@ header .container .fixed-nav {
 #home .hero-container .hero-wrapper .hero-content .hero-text p {
   font-size: var(--fs-300);
   color: var(--secondaryColor);
-}
-#home .hero-container .hero-wrapper .hero-content .buy-rent-container {
-  margin-top: 1rem;
 }
 #home .hero-container .hero-wrapper .hero-content .buy-rent-container .buy-rent-wrapper .buy-rent-content-wrapper {
   background-color: var(--lightColor);
@@ -492,7 +490,6 @@ header .container .fixed-nav {
 #home .hero-container .hero-wrapper .hero-content .number-container {
   display: flex;
   gap: 2.5rem;
-  margin-top: 1rem;
 }
 #home .hero-container .hero-wrapper .hero-content .number-container * span {
   font-size: var(--fs-800);
@@ -521,10 +518,8 @@ header .container .fixed-nav {
   #home .hero-container .hero-wrapper .hero-content {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     height: 100vh;
-  }
-  #home .hero-container .hero-wrapper .hero-content .hero-text {
-    margin-top: 3rem;
   }
   #home .hero-container .hero-wrapper .hero-content .hero-text h1 {
     font-size: var(--fs-1000);
@@ -532,9 +527,6 @@ header .container .fixed-nav {
   #home .hero-container .hero-wrapper .hero-content .hero-text p {
     font-size: var(--fs-300);
     color: var(--secondaryColor);
-  }
-  #home .hero-container .hero-wrapper .hero-content .buy-rent-container {
-    margin-top: 2rem;
   }
   #home .hero-container .hero-wrapper .hero-content .buy-rent-container .buy-rent-wrapper .buy-rent-content-wrapper {
     background-color: var(--lightColor);
@@ -603,7 +595,6 @@ header .container .fixed-nav {
   #home .hero-container .hero-wrapper .hero-content .number-container {
     display: flex;
     gap: 2.5rem;
-    margin-top: 3.5rem;
   }
   #home .hero-container .hero-wrapper .hero-content .number-container * span {
     font-size: var(--fs-800);
@@ -632,6 +623,7 @@ header .container .fixed-nav {
   #home .hero-container .hero-wrapper .hero-content {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     height: 100vh;
   }
   #home .hero-container .hero-wrapper .hero-content .hero-text {
@@ -646,7 +638,7 @@ header .container .fixed-nav {
   }
   #home .hero-container .hero-wrapper .hero-content .buy-rent-container .buy-rent-wrapper .buy-rent-content-wrapper {
     background-color: var(--lightColor);
-    width: 100vw;
+    width: 90vw;
     border-radius: 0.5rem;
     padding-top: 1rem;
   }
@@ -711,7 +703,6 @@ header .container .fixed-nav {
   #home .hero-container .hero-wrapper .hero-content .number-container {
     display: flex;
     gap: 2.5rem;
-    margin-top: 3.5rem;
   }
   #home .hero-container .hero-wrapper .hero-content .number-container * span {
     font-size: var(--fs-800);

@@ -16,6 +16,7 @@
       .hero-content {
         display:flex;
         flex-direction:column;
+        justify-content: space-between;
         height:100vh;
         // margin-top: 7rem;
       
@@ -38,7 +39,7 @@
        
 
         .buy-rent-container {
-              margin-top: 1rem;
+              // margin-top: 1rem;
           
           .buy-rent-wrapper {
            
@@ -122,7 +123,7 @@
         
             display: flex;
             gap: 2.5rem;
-            margin-top: 1rem;
+            // margin-top: 1rem;
             
             & *span{
               font-size: var(--fs-800);
@@ -158,6 +159,7 @@
           .hero-content {
             display: flex;
             flex-direction: column;
+            justify-content: space-between;
             height: 100vh;
             // margin-top: 7rem;
   
@@ -165,7 +167,7 @@
   
             .hero-text {
   
-              margin-top: 3rem;
+              // margin-top: 5rem;
   
               h1 {
                 font-size: var(--fs-1000);
@@ -181,7 +183,7 @@
   
   
             .buy-rent-container {
-              margin-top: 2rem;
+              // margin-top: 5rem;
   
               .buy-rent-wrapper {
   
@@ -274,7 +276,7 @@
   
               display: flex;
               gap: 2.5rem;
-              margin-top: 3.5rem;
+              // margin-top: 20rem;
   
               & *span {
                 font-size: var(--fs-800);
@@ -316,6 +318,7 @@
         .hero-content {
           display: flex;
           flex-direction: column;
+          justify-content: space-between;
           height: 100vh;
 
 
@@ -344,7 +347,7 @@
 
               .buy-rent-content-wrapper {
                 background-color: var(--lightColor);
-                width: 100vw;
+                width: 90vw;
                 border-radius: 0.5rem;
                 padding-top: 1rem;
 
@@ -430,7 +433,7 @@
 
             display: flex;
             gap: 2.5rem;
-            margin-top: 3.5rem;
+            // margin-top: 3.5rem;
 
             & *span {
               font-size: var(--fs-800);
