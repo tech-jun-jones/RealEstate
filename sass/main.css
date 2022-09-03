@@ -424,7 +424,7 @@ header .container .fixed-nav {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 100vh;
+  min-height: 80vh;
 }
 #home .hero-container .hero-wrapper .hero-content .hero-text h1 {
   font-size: var(--fs-1000);
@@ -519,7 +519,7 @@ header .container .fixed-nav {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 100vh;
+    min-height: 80vh;
   }
   #home .hero-container .hero-wrapper .hero-content .hero-text h1 {
     font-size: var(--fs-1000);
@@ -624,7 +624,7 @@ header .container .fixed-nav {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 100vh;
+    min-height: 80vh;
   }
   #home .hero-container .hero-wrapper .hero-content .hero-text {
     margin-top: 3rem;
