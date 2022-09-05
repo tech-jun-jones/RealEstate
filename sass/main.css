@@ -82,8 +82,6 @@ img {
 
 header .container {
   min-height: 10vh;
-}
-header .container nav {
   overflow-x: hidden;
 }
 header .container nav .container-mob {
@@ -409,7 +407,6 @@ header .container .fixed-nav {
 /** @format */
 #home .hero-container {
   min-height: 90vh;
-  overflow: hidden;
   overflow-x: hidden;
   background: url("../Assets/Images/banner/hero-banner.png");
   background-position: 50% right;
@@ -1117,6 +1114,7 @@ header .container .fixed-nav {
 }
 .property {
   margin-top: 5rem;
+  overflow-x: hidden;
 }
 .property .property-wrapper {
   display: grid;
@@ -5028,6 +5026,7 @@ header .container .fixed-nav {
   margin-top: 7rem;
   width: 100%;
   min-height: 80vh;
+  overflow-x: hidden;
 }
 .reviews-container .reviews-wrapper {
   width: 87%;
