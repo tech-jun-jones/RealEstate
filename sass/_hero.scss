@@ -183,7 +183,7 @@
             
             
                   .buy-rent-container {
-                    margin-top:5rem;
+                    transform: translateY(-4rem);
             
                       .buy-rent-content-wrapper {
                         background-color: var(--lightColor);
@@ -223,10 +223,10 @@
                   }
             
             
-                  .number-container {
+                //   .number-container {
             
-                transform: translateY(3rem);
-                  }
+                // transform: translateY(3rem);
+                //   }
             
                 }
 
@@ -269,7 +269,7 @@
             
             
                   .buy-rent-container {
-                    margin-top:5rem;
+                
             
                       .buy-rent-content-wrapper {
                         background-color: var(--lightColor);

@@ -521,7 +521,7 @@ header .container .fixed-nav {
     color: var(--secondaryColor);
   }
   #home .hero-container .hero-wrapper .hero-content .hero-content-text .buy-rent-container {
-    margin-top: 5rem;
+    transform: translateY(-4rem);
   }
   #home .hero-container .hero-wrapper .hero-content .hero-content-text .buy-rent-container .buy-rent-content-wrapper {
     background-color: var(--lightColor);
@@ -545,9 +545,6 @@ header .container .fixed-nav {
   #home .hero-container .hero-wrapper .hero-content .hero-content-text .buy-rent-container .buy-rent-content-wrapper #location, #home .hero-container .hero-wrapper .hero-content .hero-content-text .buy-rent-container .buy-rent-content-wrapper #property, #home .hero-container .hero-wrapper .hero-content .hero-content-text .buy-rent-container .buy-rent-content-wrapper #price, #home .hero-container .hero-wrapper .hero-content .hero-content-text .buy-rent-container .buy-rent-content-wrapper #keyword {
     margin-top: 1rem;
   }
-  #home .hero-container .hero-wrapper .hero-content .hero-content-text .number-container {
-    transform: translateY(3rem);
-  }
 }
 @media screen and (min-width: 360px) and (min-width: 390px) {
   #home .hero-container .hero-wrapper .hero-content .hero-content-text .hero-text-header h1 {
@@ -557,9 +554,6 @@ header .container .fixed-nav {
   #home .hero-container .hero-wrapper .hero-content .hero-content-text .hero-text-header p {
     font-size: var(--fs-300);
     color: var(--secondaryColor);
-  }
-  #home .hero-container .hero-wrapper .hero-content .hero-content-text .buy-rent-container {
-    margin-top: 5rem;
   }
   #home .hero-container .hero-wrapper .hero-content .hero-content-text .buy-rent-container .buy-rent-content-wrapper {
     background-color: var(--lightColor);
