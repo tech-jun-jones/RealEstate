@@ -506,8 +506,11 @@ header .container .fixed-nav {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    min-height: 83vh;
+    min-height: 80vh;
     z-index: 10;
+  }
+  #home .hero-container .hero-wrapper .hero-content .hero-content-text .hero-text-header {
+    margin-top: 3rem;
   }
   #home .hero-container .hero-wrapper .hero-content .hero-content-text .hero-text-header h1 {
     font-size: var(--fs-1000);
@@ -543,7 +546,7 @@ header .container .fixed-nav {
     margin-top: 1rem;
   }
   #home .hero-container .hero-wrapper .hero-content .hero-content-text .number-container {
-    margin-top: 8rem;
+    transform: translateY(3rem);
   }
 }
 @media screen and (min-width: 360px) and (min-width: 390px) {
@@ -579,9 +582,6 @@ header .container .fixed-nav {
   }
   #home .hero-container .hero-wrapper .hero-content .hero-content-text .buy-rent-container .buy-rent-content-wrapper #location, #home .hero-container .hero-wrapper .hero-content .hero-content-text .buy-rent-container .buy-rent-content-wrapper #property, #home .hero-container .hero-wrapper .hero-content .hero-content-text .buy-rent-container .buy-rent-content-wrapper #price, #home .hero-container .hero-wrapper .hero-content .hero-content-text .buy-rent-container .buy-rent-content-wrapper #keyword {
     margin-top: 1rem;
-  }
-  #home .hero-container .hero-wrapper .hero-content .hero-content-text .number-container {
-    margin-top: 10rem;
   }
 }
 @media screen and (min-width: 360px) and (min-width: 390px) and (min-width: 700px) {

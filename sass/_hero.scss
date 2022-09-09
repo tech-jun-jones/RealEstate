@@ -163,12 +163,12 @@
                   display: flex;
                   flex-direction: column;
                   justify-content: space-between;
-                  min-height: 83vh;
+                  min-height: 80vh;
                   z-index: 10;
             
             
                   .hero-text-header {
-            
+                    margin-top:3rem;
                     h1 {
                       font-size: var(--fs-1000);
                       letter-spacing: 0.2rem;
@@ -225,7 +225,7 @@
             
                   .number-container {
             
-                  margin-top:8rem;
+                transform: translateY(3rem);
                   }
             
                 }
@@ -309,10 +309,7 @@
                   }
             
             
-                  .number-container {
-            
-                  margin-top:10rem;
-                  }
+                  
             
                 }
 
