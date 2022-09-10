@@ -33,13 +33,16 @@
 }
 
 
-@media screen and(min-width:425px) {
+
+@media screen and(min-width:700px) {
     .footer-container {
             .footer-wrapper {
+                width: 90%;
+                    margin: 0 auto;
                 .footer-content {
                     display: grid;
                     row-gap: 2rem;
-                    grid-template-columns: repeat(2, 1fr);
+                    grid-template-columns:40% 30% 30%;
                     justify-content: center;
                         align-items: center;
                         
@@ -64,139 +67,17 @@
 
 
                     .resources{
-                        justify-self: center;
-                    }
-    
-                }
-            }
-        }
-}
-@media screen and(min-width:768px) {
-    .footer-container {
-            .footer-wrapper {
-                width: 87%;
-                    margin: 0 auto;
-                .footer-content {
-                    display: grid;
-                    row-gap: 2rem;
-                    grid-template-columns: repeat(2, 1fr);
-                    justify-content: center;
-                        align-items: center;
-                        
-                    
-    
-                    * h1 {
-                        font-size: var(--fs-600);
-                        color: var(--secondaryColor);
-                        padding: 1rem 0;
-                    }
-    
-                    *p {
-                        font-size: var(--fs-400);
-                        color: var(--greyColor);
-                        padding-bottom: 1rem;
-    
-                    }
-    
-                    & *i {
-                        font-size: var(--fs-600);
-                    }
-
-
-                    .resources{
-                        justify-self: center;
-                    }
-    
-                }
-            }
-        }
-}
-@media screen and(min-width:820px) {
-    .footer-container {
-            .footer-wrapper {
-                width: 87%;
-                    margin: 0 auto;
-                .footer-content {
-                    display: grid;
-                    row-gap: 2rem;
-                    grid-template-columns: repeat(3, 1fr);
-                    justify-content: center;
-                        align-items: center;
-                       
-                    
-    
-                    * h1 {
-                        font-size: var(--fs-600);
-                        color: var(--secondaryColor);
-                        padding: 1rem 0;
-                    }
-    
-                    *p {
-                        font-size: var(--fs-400);
-                        color: var(--greyColor);
-                        padding-bottom: 1rem;
-    
-                    }
-    
-                    & *i {
-                        font-size: var(--fs-600);
-                    }
-
-
-                    .resources{
-                        justify-self: center;
+                        justify-self: end;
                     }
                     .company{
-                        justify-self: center;
+                        justify-self: end;
                     }
     
                 }
             }
         }
 }
-@media screen and(min-width:912px) {
-    .footer-container {
-            .footer-wrapper {
-                width: 87%;
-                    margin: 0 auto;
-                .footer-content {
-                    display: grid;
-                    row-gap: 2rem;
-                    grid-template-columns: repeat(3, 1fr);
-                    justify-content: center;
-                    align-items: center;
-                  
-                    
-    
-                    * h1 {
-                        font-size: var(--fs-600);
-                        color: var(--secondaryColor);
-                        padding: 1rem 0;
-                    }
-    
-                    *p {
-                        font-size: var(--fs-400);
-                        color: var(--greyColor);
-                        padding-bottom: 1rem;
-    
-                    }
-    
-                    & *i {
-                        font-size: var(--fs-600);
-                    }
 
-
-                    .resources{
-                        justify-self: center;
-                    }
-                    .company{
-                        justify-self: center;
-                    }
-    
-                }
-            }
-        }
-}
 @media screen and(min-width:1024px) {
     .footer-container {
             .footer-wrapper {

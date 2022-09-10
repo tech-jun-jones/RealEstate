@@ -41,12 +41,16 @@
 
 
         .buy-rent-container {
-             
+              display: grid;
+                place-items: center;
+                justify-content: center;
+                align-items: center;
             .buy-rent-content-wrapper {
                 background-color: var(--lightColor);
                 width:89vw;
                 border-radius: 0.5rem;
-                padding-top: rem;
+                padding-top: 1rem;
+                
                 
                 
                 .buy-rent-header {
@@ -184,12 +188,16 @@
             
                   .buy-rent-container {
                     transform: translateY(-4rem);
+                    display: grid;
+                      place-items: center;
+                      justify-content: center;
+                      align-items: center;
             
                       .buy-rent-content-wrapper {
                         background-color: var(--lightColor);
                         width: 90vw;
                         border-radius: 0.5rem;
-                        padding-top: rem;
+                      
             
             
                         .buy-rent-header {
@@ -323,115 +331,100 @@
       }
 
 }
+@media screen and (min-width:500px) {
+
+  #home {
+      .hero-container {
 
 
+        .hero-wrapper{
 
+          .hero-content{
 
-
-@media screen and (min-width:700px) {
-
-#home {
-    .hero-container {
-
-
-      .hero-wrapper {
-
-        .hero-content {
-          
-
-          .hero-content-text {
-
-           margin-top: 8rem;
-           
-
-
-            .hero-text-header {
-
-              h1 {
-                font-size: var(--fs-1000);
-                letter-spacing: 0.2rem;
-              }
-
-              p {
-                font-size: var(--fs-300);
-                color: var(--secondaryColor);
-                // font-weight: 600;
-              }
-            }
-
-
-            .buy-rent-container {
-              margin-top: 3rem;
-
-              .buy-rent-content-wrapper {
-                background-color: var(--lightColor);
-                width: fit-content;
-                border-radius: 0.5rem;
-                padding-top: rem;
-
-
-                .buy-rent-header {
-                 display: flex;
-                  gap: 2rem;
-                  padding: 1rem;
-                  background-color: var(--primaryColor);
-                  width: -moz-fit-content;
-                  width: fit-content;
-                  position: relative;
-                  cursor: pointer;
-                  margin-left: 1rem;
-
-                }
-                #buy-form{
-                  display: flex;
-
-                  .form-btn {
-                      .btn {
-                        width: 100%;
-                        height: 3.5rem;
-                        border: none;
-                        border-radius: 0.5rem;
-                        padding: 0.35rem 5rem;
-                      }
+                .hero-content-text {
+        
+            
+                  .hero-text-header {
+            
+                    h1 {
+                      font-size: var(--fs-1000);
+                      letter-spacing: 0.2rem;
                     }
+            
+                    p {
+                      font-size: var(--fs-300);
+                      color: var(--secondaryColor);
+                      // font-weight: 600;
+                    }
+                  }
+            
+            
+                  .buy-rent-container {
+                display: grid;
+                  place-items: center;
+                  justify-content: center;
+                  align-items: center;
+                  transform: translateY(4vh);
+            
+                      .buy-rent-content-wrapper {
+                        background-color: var(--lightColor);
+                        width: 90vw;
+                        border-radius: 0.5rem;
+                        
+                        text-align: center;
+                        
+            
+            
+                        .buy-rent-header {
+                          display: flex;
+                          flex-direction: column;
+                          gap: 2rem;
+                          padding: 1rem;
+                          background-color: var(--primaryColor);
+                          width: -moz-fit-content;
+                          width: fit-content;
+                          position: relative;
+                          cursor: pointer;
+                          margin-left: 1rem;
+            
+                        }
+        
+                        #location, #property, #price, #keyword{
+                          margin-top:1rem;
+                        }
+            
+            
+            
+            
+            
+                      
+        
+            
+                        
+                      }
+                    
+                  }
+
+                  .number-container {
+
+                  transform: translateY(6vh);
+
+                  }
+    
                 }
-
-                #location,
-                #property,
-                #price,
-                #keyword {
-                  margin-top: 1rem;
-                  width: 100%;
-                }
-
-                
-
-              }
-
-            }
-
-
-            .number-container {
-
-              transform: translateY(-8rem);
-
-           
 
           }
-
-
-
-
         }
+      
+          
       }
 
+}
 
-    }
-}
-}
-}
-}
-}
+
+
+
+
 
 @media screen and (min-width:1024px) {
 
@@ -468,7 +461,11 @@
 
 
             .buy-rent-container {
-              margin-top: 3rem;
+            display: grid;
+              place-items: center;
+              justify-content: left;
+              align-items: center;
+              transform: translateY(-4vh);
 
               .buy-rent-content-wrapper {
                 background-color: var(--lightColor);
@@ -520,7 +517,7 @@
 
             .number-container {
 
-              transform: translateY(-8rem);
+              transform: translateY(-6vh);
 
            
 
@@ -537,5 +534,6 @@
 }
 }
 }
-
-
+}
+}
+}

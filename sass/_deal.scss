@@ -1,5 +1,6 @@
 .deal-container{
-    margin-top:5rem;
+    margin-top:7rem;
+    overflow: hidden;
     .deal-wrapper{
         .deal-header{
 
@@ -14,6 +15,7 @@
             display: flex;
             flex-direction: column;
             gap: 5rem;
+            z-index: -10;
 
 
 
@@ -22,6 +24,7 @@
                     // column-gap: 2rem;
                     row-gap: 2rem;
                     align-items: center;
+                    z-index: -10;
                     
 
 
@@ -69,6 +72,7 @@
                     column-gap: 2rem;
                     row-gap: 2rem;
                     align-items: center;
+                    z-index: -10;
                  
 
                     img{
@@ -115,12 +119,14 @@
                     // column-gap: 2rem;
                     row-gap: 2rem;
                     align-items: center;
+                    z-index: -10;
                  
 
 
 
                 .large-image{
                     display:inline-block;
+                    z-index: -10;
                     img{
                         width: 100%;
                         display:inline-block;
@@ -162,6 +168,7 @@
                     column-gap: 2rem;
                     row-gap: 2rem;
                     align-items: center;
+                    z-index: -10;
                  
 
                     img{
@@ -213,7 +220,7 @@
 
 @media screen and(min-width:375px) {
     .deal-container {
-            margin-top: 5rem;
+   
     
             .deal-wrapper {
                 .deal-header {
@@ -442,7 +449,7 @@
 
 @media screen and(min-width:425px) {
     .deal-container {
-            margin-top: 5rem;
+           
     
             .deal-wrapper {
                 .deal-header {
@@ -668,7 +675,7 @@
 }
 @media screen and(min-width:460px) {
     .deal-container {
-            margin-top: 5rem;
+          
     
             .deal-wrapper {
                 .deal-header {
@@ -896,7 +903,7 @@
 
 @media screen and(min-width:768px) {
     .deal-container {
-            margin-top: 7rem;
+        
     
             .deal-wrapper {
             width: 87%;
@@ -1124,7 +1131,7 @@
 }
 @media screen and(min-width:820px) {
     .deal-container {
-            margin-top: 7rem;
+       
     
             .deal-wrapper {
             width: 87%;
@@ -1361,7 +1368,7 @@
 }
 @media screen and(min-width:912px) {
     .deal-container {
-            margin-top: 7rem;
+          
     
             .deal-wrapper {
             width: 87%;
@@ -1600,7 +1607,7 @@
 
 @media screen and(min-width:1024px) {
     .deal-container {
-            margin-top: 7rem;
+        
     
             .deal-wrapper {
             width: 85%;
@@ -1838,7 +1845,7 @@
 
 @media screen and(min-width:1280px) {
     .deal-container {
-            margin-top: 7rem;
+         
     
             .deal-wrapper {
             width: 85%;
