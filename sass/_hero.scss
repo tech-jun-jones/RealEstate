@@ -33,9 +33,9 @@
             letter-spacing: 0.2rem;
           }
           p {
-            font-size: var(--fs-300);
+            font-size: var(--fs-400);
             color: var(--secondaryColor);
-            // font-weight: 600;
+            font-weight: 600;
           }
         }
 
@@ -347,15 +347,15 @@
                   .hero-text-header {
             
                     h1 {
-                      font-size: var(--fs-1000);
-                      letter-spacing: 0.2rem;
+                      font-size: 3rem;
+                      letter-spacing: 0.3rem;
                     }
             
                     p {
-                      font-size: var(--fs-300);
+                      font-size: 1.4rem;
                       color: var(--secondaryColor);
-                      // font-weight: 600;
-                    }
+                      font-weight: 600;
+                     }
                   }
             
             
@@ -370,7 +370,6 @@
                         background-color: var(--lightColor);
                         width: 90vw;
                         border-radius: 0.5rem;
-                        
                         text-align: center;
                         
             
@@ -390,7 +389,9 @@
                         }
         
                         #location, #property, #price, #keyword{
-                          margin-top:1rem;
+                          margin:1.2rem 0;
+                          font-size: var(--fs-500);
+                          font-weight: 600;
                         }
             
             

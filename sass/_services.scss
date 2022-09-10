@@ -16,7 +16,7 @@
 
         }
         .services-content{
-            margin-top:3rem;
+            margin-top:5rem;
             display: grid;
             row-gap: 3rem;
             align-items: center;
@@ -30,9 +30,10 @@
                 row-gap: 1.5rem;
                 background: var(--primaryColor);
                 box-shadow: 0 0.5rem 1rem var(--greyColor);
-                padding: 3rem;
-                width: 60vw;
-                height:50vh;
+                padding: 4rem 10rem;
+              
+                // width: 70vw;
+                // height:45vh;
                 z-index: -10;
 
 
@@ -96,10 +97,10 @@
                 }
     
                 .services-content {
-                    margin-top: 3rem;
+                    margin-top: 5rem;
                     display: grid;
-                    place-items: center;
                     grid-template-columns: repeat(2, 1fr);
+                    column-gap: 2rem;
                     align-items: center;
                     justify-content: center;
     
@@ -111,9 +112,9 @@
                         row-gap: 1.5rem;
                         background: var(--primaryColor);
                         box-shadow: 0 0.5rem 1rem var(--greyColor);
-                        padding: 3rem;
-                        width: 40vw;
-                        height: 45vh;
+                        padding: 4rem 6rem;
+                        
+                       
     
     
                         &>h2 {
@@ -183,7 +184,7 @@
                 }
     
                 .services-content {
-                    margin-top: 3rem;
+                
                     display: grid;
                     grid-template-columns: repeat(3, 1fr);
                     row-gap: 3rem;
@@ -199,9 +200,8 @@
                         row-gap: 1.5rem;
                         background: var(--primaryColor);
                         box-shadow: 0 0.5rem 1rem var(--greyColor);
-                        padding: 3rem;
-                        width: 26.5vw;
-                        height: 40vh;
+                        padding: 4rem 6rem;
+                        
     
     
                         &>h2 {
@@ -269,7 +269,7 @@
                 }
     
                 .services-content {
-                    margin-top: 3rem;
+               
                     display: grid;
                     grid-template-columns: repeat(3, 1fr);
                     row-gap: 3rem;
@@ -285,7 +285,7 @@
                         row-gap: 1.5rem;
                         background: var(--primaryColor);
                         box-shadow: 0 0.5rem 1rem var(--greyColor);
-                        padding: 3rem;
+                        padding: 4rem 10rem;
     
     
                         &>h2 {
