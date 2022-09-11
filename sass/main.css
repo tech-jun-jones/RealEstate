@@ -516,16 +516,17 @@ header .container .fixed-nav {
     z-index: 10;
   }
   #home .hero-container .hero-wrapper .hero-content .hero-content-text .hero-text-header {
-    margin-top: 2rem;
+    margin-top: 3rem;
   }
   #home .hero-container .hero-wrapper .hero-content .hero-content-text .hero-text-header h1 {
-    font-size: var(--fs-1100);
-    letter-spacing: 0.2rem;
+    font-size: var(--fs-1000);
+    letter-spacing: 0.3rem;
   }
   #home .hero-container .hero-wrapper .hero-content .hero-content-text .hero-text-header p {
-    font-size: var(--fs-400);
+    font-size: var(--fs-300);
     color: var(--secondaryColor);
-    font-weight: 700;
+    font-weight: 600;
+    letter-spacing: 0.01rem;
   }
   #home .hero-container .hero-wrapper .hero-content .hero-content-text .buy-rent-container {
     transform: translateY(2rem);
@@ -557,19 +558,23 @@ header .container .fixed-nav {
     font-size: var(--fs-400);
     font-weight: 600;
   }
+  #home .hero-container .hero-wrapper .hero-content .hero-content-text .number-container {
+    transform: translateY(4vh);
+  }
 }
 @media screen and (min-width: 360px) and (min-width: 390px) {
   #home .hero-container .hero-wrapper .hero-text-header {
     margin-top: 3rem;
   }
   #home .hero-container .hero-wrapper .hero-text-header h1 {
-    font-size: var(--fs-1100);
-    letter-spacing: 0.2rem;
+    font-size: var(--fs-1000);
+    letter-spacing: 0.3rem;
   }
   #home .hero-container .hero-wrapper .hero-text-header p {
-    font-size: var(--fs-500);
+    font-size: var(--fs-400);
     color: var(--secondaryColor);
-    font-weight: 700;
+    font-weight: 600;
+    letter-spacing: 0.01rem;
   }
   #home .hero-container .hero-wrapper .hero-content .hero-content-text .buy-rent-container .buy-rent-content-wrapper {
     background-color: var(--lightColor);
@@ -602,7 +607,7 @@ header .container .fixed-nav {
     place-items: center;
     justify-content: center;
     align-items: center;
-    transform: translateY(5vh);
+    transform: translateY(4vh);
   }
   #home .hero-container .hero-wrapper .hero-content .hero-content-text .buy-rent-container .buy-rent-content-wrapper {
     background-color: var(--lightColor);
