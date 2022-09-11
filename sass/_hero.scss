@@ -189,7 +189,7 @@
             
             
                   .buy-rent-container {
-                    transform: translateY(2rem);
+                    transform: translateY(-2rem);
                     display: grid;
                       place-items: center;
                       justify-content: center;
@@ -235,10 +235,10 @@
                   }
             
             
-                  .number-container {
+                //   .number-container {
             
-                transform: translateY(4vh);
-                  }
+                // transform: translateY(vh);
+                //   }
             
                 }
 

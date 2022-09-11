@@ -529,7 +529,7 @@ header .container .fixed-nav {
     letter-spacing: 0.01rem;
   }
   #home .hero-container .hero-wrapper .hero-content .hero-content-text .buy-rent-container {
-    transform: translateY(2rem);
+    transform: translateY(-2rem);
     display: grid;
     place-items: center;
     justify-content: center;
@@ -557,9 +557,6 @@ header .container .fixed-nav {
     margin: 1.2rem 0;
     font-size: var(--fs-400);
     font-weight: 600;
-  }
-  #home .hero-container .hero-wrapper .hero-content .hero-content-text .number-container {
-    transform: translateY(4vh);
   }
 }
 @media screen and (min-width: 360px) and (min-width: 390px) {
