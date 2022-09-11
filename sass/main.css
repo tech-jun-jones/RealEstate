@@ -425,7 +425,7 @@ header .container .fixed-nav {
   letter-spacing: 0.2rem;
 }
 #home .hero-container .hero-wrapper .hero-content .hero-content-text .hero-text-header p {
-  font-size: var(--fs-500);
+  font-size: var(--fs-300);
   color: var(--secondaryColor);
   font-weight: 700;
 }
@@ -452,7 +452,6 @@ header .container .fixed-nav {
   width: fit-content;
   position: relative;
   cursor: pointer;
-  margin-left: 1rem;
 }
 #home .hero-container .hero-wrapper .hero-content .hero-content-text .buy-rent-container .buy-rent-content-wrapper #location, #home .hero-container .hero-wrapper .hero-content .hero-content-text .buy-rent-container .buy-rent-content-wrapper #property, #home .hero-container .hero-wrapper .hero-content .hero-content-text .buy-rent-container .buy-rent-content-wrapper #price, #home .hero-container .hero-wrapper .hero-content .hero-content-text .buy-rent-container .buy-rent-content-wrapper #keyword {
   width: 85vw;
@@ -520,12 +519,13 @@ header .container .fixed-nav {
     margin-top: 3rem;
   }
   #home .hero-container .hero-wrapper .hero-content .hero-content-text .hero-text-header h1 {
-    font-size: var(--fs-1000);
+    font-size: var(--fs-1100);
     letter-spacing: 0.2rem;
   }
   #home .hero-container .hero-wrapper .hero-content .hero-content-text .hero-text-header p {
-    font-size: var(--fs-300);
+    font-size: var(--fs-400);
     color: var(--secondaryColor);
+    font-weight: 700;
   }
   #home .hero-container .hero-wrapper .hero-content .hero-content-text .buy-rent-container {
     transform: translateY(-4rem);
@@ -553,17 +553,23 @@ header .container .fixed-nav {
     margin-left: 1rem;
   }
   #home .hero-container .hero-wrapper .hero-content .hero-content-text .buy-rent-container .buy-rent-content-wrapper #location, #home .hero-container .hero-wrapper .hero-content .hero-content-text .buy-rent-container .buy-rent-content-wrapper #property, #home .hero-container .hero-wrapper .hero-content .hero-content-text .buy-rent-container .buy-rent-content-wrapper #price, #home .hero-container .hero-wrapper .hero-content .hero-content-text .buy-rent-container .buy-rent-content-wrapper #keyword {
-    margin-top: 1rem;
+    margin: 1rem 0;
+    font-size: var(--fs-400);
+    font-weight: 600;
   }
 }
 @media screen and (min-width: 360px) and (min-width: 390px) {
-  #home .hero-container .hero-wrapper .hero-content .hero-content-text .hero-text-header h1 {
-    font-size: var(--fs-1000);
+  #home .hero-container .hero-wrapper .hero-text-header {
+    margin-top: 3rem;
+  }
+  #home .hero-container .hero-wrapper .hero-text-header h1 {
+    font-size: var(--fs-1100);
     letter-spacing: 0.2rem;
   }
-  #home .hero-container .hero-wrapper .hero-content .hero-content-text .hero-text-header p {
-    font-size: var(--fs-300);
+  #home .hero-container .hero-wrapper .hero-text-header p {
+    font-size: var(--fs-500);
     color: var(--secondaryColor);
+    font-weight: 700;
   }
   #home .hero-container .hero-wrapper .hero-content .hero-content-text .buy-rent-container .buy-rent-content-wrapper {
     background-color: var(--lightColor);
@@ -584,56 +590,8 @@ header .container .fixed-nav {
     cursor: pointer;
     margin-left: 1rem;
   }
-  #home .hero-container .hero-wrapper .hero-content .hero-content-text .buy-rent-container .buy-rent-content-wrapper #location, #home .hero-container .hero-wrapper .hero-content .hero-content-text .buy-rent-container .buy-rent-content-wrapper #property, #home .hero-container .hero-wrapper .hero-content .hero-content-text .buy-rent-container .buy-rent-content-wrapper #price, #home .hero-container .hero-wrapper .hero-content .hero-content-text .buy-rent-container .buy-rent-content-wrapper #keyword {
-    margin-top: 1rem;
-  }
 }
-@media screen and (min-width: 360px) and (min-width: 390px) and (min-width: 500px) {
-  #home .hero-container .hero-wrapper .hero-content .hero-content-text .hero-text-header h1 {
-    font-size: 3rem;
-    letter-spacing: 0.3rem;
-  }
-  #home .hero-container .hero-wrapper .hero-content .hero-content-text .hero-text-header p {
-    font-size: 1.4rem;
-    color: var(--secondaryColor);
-    font-weight: 600;
-  }
-  #home .hero-container .hero-wrapper .hero-content .hero-content-text .buy-rent-container {
-    display: grid;
-    place-items: center;
-    justify-content: center;
-    align-items: center;
-    transform: translateY(4vh);
-  }
-  #home .hero-container .hero-wrapper .hero-content .hero-content-text .buy-rent-container .buy-rent-content-wrapper {
-    background-color: var(--lightColor);
-    width: 90vw;
-    border-radius: 0.5rem;
-    text-align: center;
-  }
-  #home .hero-container .hero-wrapper .hero-content .hero-content-text .buy-rent-container .buy-rent-content-wrapper .buy-rent-header {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    padding: 1rem;
-    background-color: var(--primaryColor);
-    width: -moz-fit-content;
-    width: -webkit-fit-content;
-    width: fit-content;
-    position: relative;
-    cursor: pointer;
-    margin-left: 1rem;
-  }
-  #home .hero-container .hero-wrapper .hero-content .hero-content-text .buy-rent-container .buy-rent-content-wrapper #location, #home .hero-container .hero-wrapper .hero-content .hero-content-text .buy-rent-container .buy-rent-content-wrapper #property, #home .hero-container .hero-wrapper .hero-content .hero-content-text .buy-rent-container .buy-rent-content-wrapper #price, #home .hero-container .hero-wrapper .hero-content .hero-content-text .buy-rent-container .buy-rent-content-wrapper #keyword {
-    margin: 1.2rem 0;
-    font-size: var(--fs-500);
-    font-weight: 600;
-  }
-  #home .hero-container .hero-wrapper .hero-content .hero-content-text .number-container {
-    transform: translateY(6vh);
-  }
-}
-@media screen and (min-width: 360px) and (min-width: 390px) and (min-width: 500px) and (min-width: 1024px) {
+@media screen and (min-width: 360px) and (min-width: 390px) and (min-width: 700px) {
   #home .hero-container .hero-wrapper .hero-content .hero-content-text {
     max-width: 85vw;
     margin: 0 auto;
