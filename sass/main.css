@@ -516,7 +516,7 @@ header .container .fixed-nav {
     z-index: 10;
   }
   #home .hero-container .hero-wrapper .hero-content .hero-content-text .hero-text-header {
-    margin-top: 3rem;
+    margin-top: 2rem;
   }
   #home .hero-container .hero-wrapper .hero-content .hero-content-text .hero-text-header h1 {
     font-size: var(--fs-1100);
