@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 :root {
-  --primaryColor:#ffffff;
+  --primaryColor:#f9f9fa;
   --lightColor:#25252552;
   --secondaryColor:#000;
   --greyColor:#797979;
   --lightgreyColor:#7979793a;
   --numberColor:#0f03c2;
-  --sidebarBgColor:#dddddf;
+  --sidebarBgColor:#fbfbfd;
   --fs-200:1.1rem;
   --fs-300:1.25rem;
   --fs-400:1.4rem;
@@ -122,7 +122,32 @@ header .container nav .container-mob .contact-lang .btn-menu {
   font-weight: 700;
 }
 header .container nav .container-mob .navlist {
-  display: none;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 10vh;
+  right: -30rem;
+  width: 30rem;
+  height: 90vh;
+  background: var(--sidebarBgColor);
+  z-index: 10;
+  box-shadow: 0 1rem 1rem var(--greyColor);
+  transition: all 0.5s linear;
+}
+header .container nav .container-mob .navlist .navlinks {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--fs-600);
+}
+header .container nav .container-mob .navlist .navlinks a {
+  color: var(--secondaryColor);
+  font-weight: 500;
+}
+header .container nav .container-mob .navlist.toggle {
+  right: 0;
 }
 header .container .fixed-nav {
   position: fixed;
@@ -152,9 +177,6 @@ header .container .fixed-nav {
   header .container nav .container-mob .company-name .logo h1 a {
     color: var(--secondaryColor);
   }
-  header .container nav .container-mob .navlist {
-    display: none;
-  }
 }
 @media screen and (min-width: 425px) {
   header .container {
@@ -172,9 +194,6 @@ header .container .fixed-nav {
   }
   header .container nav .container-mob .company-name .logo h1 a {
     color: var(--secondaryColor);
-  }
-  header .container nav .container-mob .navlist {
-    display: none;
   }
 }
 @media screen and (min-width: 700px) {
@@ -195,9 +214,6 @@ header .container .fixed-nav {
   }
   header .container nav .container-mob .company-name .logo h1 a {
     color: var(--secondaryColor);
-  }
-  header .container nav .container-mob .navlist {
-    display: none;
   }
   header .container nav .container-mob .contact-lang {
     display: flex;
@@ -249,13 +265,20 @@ header .container .fixed-nav {
     color: var(--secondaryColor);
   }
   header .container nav .container-mob .navlist {
-    display: block;
-  }
-  header .container nav .container-mob .navlist .navlinks {
     display: flex;
-    gap: 2rem;
     align-items: center;
     justify-content: center;
+    position: inherit;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    background: transparent;
+    box-shadow: none;
+    height: 0;
+    justify-self: center;
+  }
+  header .container nav .container-mob .navlist .navlinks {
+    flex-direction: row;
     font-size: var(--fs-600);
   }
   header .container nav .container-mob .navlist .navlinks a {
@@ -306,21 +329,6 @@ header .container .fixed-nav {
   header .container nav .container-mob .menu-darkmode-lang {
     display: none;
   }
-  header .container nav .container-mob .navlist {
-    display: block;
-  }
-  header .container nav .container-mob .navlist .navlinks {
-    display: flex;
-    gap: 4rem;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    font-size: var(--fs-600);
-  }
-  header .container nav .container-mob .navlist .navlinks a {
-    color: var(--secondaryColor);
-    font-weight: 500;
-  }
   header .container nav .container-mob .contact-lang {
     display: flex;
     align-items: center;
@@ -369,21 +377,6 @@ header .container .fixed-nav {
   }
   header .container nav .container-mob .menu-darkmode-lang {
     display: none;
-  }
-  header .container nav .container-mob .navlist {
-    display: block;
-  }
-  header .container nav .container-mob .navlist .navlinks {
-    display: flex;
-    gap: 4rem;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    font-size: var(--fs-600);
-  }
-  header .container nav .container-mob .navlist .navlinks a {
-    color: var(--secondaryColor);
-    font-weight: 500;
   }
   header .container nav .container-mob .contact-lang {
     display: flex;
@@ -440,10 +433,16 @@ header .container .fixed-nav {
   width: 89vw;
   border-radius: 0.5rem;
   padding-top: 1rem;
+  display: grid;
+  place-items: center;
+  justify-content: center;
+  align-items: center;
 }
 #home .hero-container .hero-wrapper .hero-content .hero-content-text .buy-rent-container .buy-rent-content-wrapper .buy-rent-header {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   gap: 2rem;
   padding: 1rem;
   background-color: var(--primaryColor);

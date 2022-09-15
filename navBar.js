@@ -47,4 +47,24 @@ scrollLinks.forEach((links)=>{
 })
 
 
+const MenuBtn = document.querySelector('.btn-menu');
+const NavList = document.querySelector('.navlist');
+console.log(MenuBtn);
+
+
+MenuBtn.addEventListener('click', ()=>{
+
+    NavList.classList.toggle('toggle');
+
+    if(NavList.classList.contains('toggle')){
+        console.log('love you');
+        document.body.style.overflow = 'hidden';
+       
+    }
+    else{
+        document.body.style.overflow = 'auto';
+    }
+})
+
+
 export default navBar;

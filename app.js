@@ -1,31 +1,10 @@
+
 import properties from "./propertyData.js";
 import property from "./property.js";
 import reviews from "./reviewsData.js";
 import review from "./review.js";
 import navBar from "./navBar.js";
 
-// // Buy and Rent Section
-
-// const buyRent = document.querySelector('.buy-rent-content-wrapper');
-// const btns = document.querySelectorAll('#btn');
-// const contents = document.querySelectorAll('.content');
-// buyRent.addEventListener('click', (e)=>{
-//     const id = e.target.dataset.id;
-//     console.log(id);
-//    if(id){
-//     btns.forEach((btn)=>{
-//         btn.classList.remove('active1');
-//         e.target.classList.add('active1');
-       
-//     });
-//     contents.forEach((content)=>{
-//         content.classList.remove('active2')
-//     });
-
-//     const element = document.getElementById(id);
-//     element.classList.add('active2')
-//    }
-// })
 
 
 // Number Count Section
@@ -181,7 +160,6 @@ setInterval(() => {
 }
 
 Commcourasel();
-
 
 
 

@@ -15,7 +15,9 @@ header{
 
 
                 .company-name{
+
                     .logo{
+
                         h1{
                             font-size: var(--fs-700);
                             font-weight: 700;
@@ -63,17 +65,37 @@ header{
 
 
                 .navlist{
-                    display:none;
+                    display:flex;
+                    justify-content: center;
+                    position: fixed;
+                    top: 10vh;
+                    right: -30rem;
+                    width: 30rem;
+                    height: 90vh;
+                    background: var( --sidebarBgColor);
+                    z-index: 10;
+                    box-shadow: 0 1rem 1rem var(--greyColor);
+                    transition: all 0.5s linear;
+
+                    .navlinks {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 3rem;
+                        align-items: center;
+                        justify-content: center;
+                        font-size: var(--fs-600);
+
+                        a {
+                            color: var(--secondaryColor);
+                            font-weight: 500;
+                        }
+                    }
+                }
+                .navlist.toggle{
+                    right: 0;
                 }
                 
 
-                // .sidebar-wrapper{
-                //     .sidebar{
-                //         width: 100%;
-                //         min-height: 100vh;
-                //         background: var(--sidebarBgColor);
-                //     }
-                // }
             }
         }
                  .fixed-nav {
@@ -119,9 +141,9 @@ header {
                         }
                     }
 
-                    .navlist {
-                        display: none;
-                    }
+                    // .navlist {
+                    //     display: none;
+                    // }
 
                   
                 }
@@ -160,9 +182,9 @@ header {
                         }
                     }
 
-                    .navlist {
-                        display: none;
-                    }
+                    // .navlist {
+                    //     display: none;
+                    // }
 
                     
                 }
@@ -203,12 +225,12 @@ header {
 
                     //
 
-                    .navlist{
+                    // .navlist{
 
-                        display: none;
+                    //     display: none;
                     
 
-                    }
+                    // }
 
                      .contact-lang {
                     display: flex;
@@ -289,13 +311,19 @@ header {
                    
                     .navlist {
 
-                        display: block;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        position: inherit;
+                        width: fit-content;
+                        background: transparent;
+                        box-shadow: none;
+                        height: 0;
+                        justify-self: center;
 
                         .navlinks {
-                            display: flex;
-                            gap: 2rem;
-                            align-items: center;
-                            justify-content: center;
+                          
+                            flex-direction: row;
                             font-size: var(--fs-600);
 
                             a {
@@ -378,25 +406,25 @@ header {
                         display: none;
                       
                     }
-                                        .navlist {
+                                        // .navlist {
                     
-                                            display: block;
+                                        //     display: block;
                     
-                                            .navlinks {
-                                                display: flex;
-                                                gap: 4rem;
-                                                align-items: center;
-                                                text-align: center;
-                                                justify-content: center;
-                                                font-size: var(--fs-600);
+                                        //     .navlinks {
+                                        //         display: flex;
+                                        //         gap: 4rem;
+                                        //         align-items: center;
+                                        //         text-align: center;
+                                        //         justify-content: center;
+                                        //         font-size: var(--fs-600);
                     
-                                                a {
-                                                    color: var(--secondaryColor);
-                                                    font-weight: 500;
-                                                }
-                                            }
+                                        //         a {
+                                        //             color: var(--secondaryColor);
+                                        //             font-weight: 500;
+                                        //         }
+                                        //     }
                     
-                                        }
+                                        // }
                     
                                         .contact-lang {
                                             display: flex;
@@ -480,25 +508,25 @@ header {
                     
                                         }
                     
-                                        .navlist {
+                                        // .navlist {
                     
-                                            display: block;
+                                        //     display: block;
                     
-                                            .navlinks {
-                                                display: flex;
-                                                gap: 4rem;
-                                                align-items: center;
-                                                text-align: center;
-                                                justify-content: center;
-                                                font-size: var(--fs-600);
+                                        //     .navlinks {
+                                        //         display: flex;
+                                        //         gap: 4rem;
+                                        //         align-items: center;
+                                        //         text-align: center;
+                                        //         justify-content: center;
+                                        //         font-size: var(--fs-600);
                     
-                                                a {
-                                                    color: var(--secondaryColor);
-                                                    font-weight: 500;
-                                                }
-                                            }
+                                        //         a {
+                                        //             color: var(--secondaryColor);
+                                        //             font-weight: 500;
+                                        //         }
+                                        //     }
                     
-                                        }
+                                        // }
                     
                                         .contact-lang {
                                             display: flex;
