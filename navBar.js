@@ -42,6 +42,9 @@ scrollLinks.forEach((links)=>{
             left:0,
             top: position,
         });
+
+        NavList.classList.remove('toggle');
+
     })
     
 })
